@@ -8,8 +8,8 @@ public class MoveData : ScriptableObject
     public string moveName;
     public bool isPasive;
     public pokemonType type;
-    public string description;
+    [SerializeField, @TextAreaAttribute(5, 15)] public string description;
     public string coste;
     public string range;
-    public string notes;
+    [SerializeField, @TextAreaAttribute(3, 15)] public string notes;
 }
