@@ -10,14 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
-  m_Name: Rayo
+  m_Name: Rafaga de arena
   m_EditorClassIdentifier: 
-  moveName: Rayo
+  moveName: "R\xE1faga de arena"
   isPasive: 0
-  type: 5
-  description: "Dispara unos peque\xF1os rayos al pok\xE9mon objetivo inflingiend\xF3le
-    2 puntos de da\xF1o con probabilidad de paralizar (30%)"
-  coste: 3PP
-  range: 1-2
-  notes: 'Paralizado: 10% de probabilidad de quedarte paralizado y perder el turno
-    restante cada vez que te mueves.'
+  type: 0
+  description: "Crea una r\xE1faga de arena que inflige 1 punto de da\xF1o por cada
+    casilla de movimiento que haya recorrido el pok\xE9mon enemigo."
+  coste: 1PP 2PE
+  range: 1-6
+  notes: Habilidad en respuesta.
