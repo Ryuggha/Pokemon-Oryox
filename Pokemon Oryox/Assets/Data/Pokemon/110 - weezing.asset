@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a24bcd988ca104dbab12e4f82b8798, type: 3}
+  m_Name: 110 - weezing
+  m_EditorClassIdentifier: 
+  id: 110
+  speciesName: weezing
+  type1: 17
+  type2: 0
+  sprite: {fileID: 21300000, guid: d9cf76d7e9fd5f243b68c5717ce6fdc9, type: 3}
+  shiny: {fileID: 21300000, guid: df8d9b3cb1bc25e40b0f3b4b2b646fcb, type: 3}

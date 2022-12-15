@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a24bcd988ca104dbab12e4f82b8798, type: 3}
+  m_Name: 88 - grimer
+  m_EditorClassIdentifier: 
+  id: 88
+  speciesName: grimer
+  type1: 17
+  type2: 0
+  sprite: {fileID: 21300000, guid: 33aa59460de2cde4bb5ce4d11b0dc4e2, type: 3}
+  shiny: {fileID: 21300000, guid: baeaf5f56de38b24b96a6b40572300aa, type: 3}

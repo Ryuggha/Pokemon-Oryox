@@ -5,9 +5,11 @@ using Newtonsoft.Json;
 using System.Net;
 using PokeApiJSON;
 using UnityEditor;
+using System.IO;
 
 public class CreatePokemonData : MonoBehaviour
 {
+    [SerializeField] private int desiredDepth = 7;
 
     private void Start()
     {
@@ -17,22 +19,48 @@ public class CreatePokemonData : MonoBehaviour
     public void createPokemonData()
     {
         WebClient client = new WebClient();
-        string pokeJson = client.DownloadString("https://pokeapi.co/api/v2/pokemon/");
-        var data = JsonConvert.DeserializeObject<PokemonBulkData>(pokeJson);
-        createPokemonObjectData(data.results);
+        List<PokeApiPokemonJSON> pokemonList = recursivePokemonData(client, "https://pokeapi.co/api/v2/pokemon/", 0);
+        createPokemonObjectData(pokemonList, client);
     }
 
-    private void createPokemonObjectData(List<Result> results)
+    public List<PokeApiPokemonJSON> recursivePokemonData(WebClient client, string nextCall, int depth)
     {
-        foreach (var pokemon in results)
+        List<PokeApiPokemonJSON> list = new List<PokeApiPokemonJSON>();
+
+        string pokeList = client.DownloadString(nextCall);
+        PokemonBulkData data = JsonConvert.DeserializeObject<PokemonBulkData>(pokeList);
+
+        foreach (var pokemon in data.results)
+        {
+            string pokeJson = client.DownloadString(pokemon.url);
+            list.Add(JsonConvert.DeserializeObject<PokeApiPokemonJSON>(pokeJson));
+        }
+
+        if (data.next != null && depth < desiredDepth) list.AddRange(recursivePokemonData(client, data.next, depth + 1));
+
+        return list;
+    }
+
+    private void createPokemonObjectData(List<PokeApiPokemonJSON> pokemonList, WebClient client)
+    {
+        foreach (var pokemon in pokemonList)
         {
             PokemonApiData o = ScriptableObject.CreateInstance<PokemonApiData>();
-            o.speciesName = pokemon.name;
-            
 
-            AssetDatabase.CreateAsset(o, $"Assets/Data/Pokemon/{pokemon.name}.asset");
-            
+            o.id = pokemon.id;
+            o.speciesName = pokemon.name;
+            o.type1 = parsePokemonType(pokemon.types[0].type.name);
+            if (pokemon.types.Count > 1) o.type2 = parsePokemonType(pokemon.types[1].type.name);
+
+            client.DownloadFile(pokemon.sprites.front_default, $"Assets/Resources/PokemonSprites/Sprites/{pokemon.name}.png");
+            client.DownloadFile(pokemon.sprites.front_shiny, $"Assets/Resources/PokemonSprites/Shinies/{pokemon.name}.png");
+            AssetDatabase.Refresh();
+            o.sprite = Resources.Load<Sprite>($"PokemonSprites/Sprites/{pokemon.name}");
+            o.shiny = Resources.Load<Sprite>($"PokemonSprites/Shinies/{pokemon.name}");
+
+            AssetDatabase.CreateAsset(o, $"Assets/Data/Pokemon/{pokemon.id} - {pokemon.name}.asset");
         }
+
         AssetDatabase.SaveAssets();
         AssetDatabase.Refresh();
     }
@@ -42,26 +70,26 @@ public class CreatePokemonData : MonoBehaviour
         switch (rawType)
         {
             case "steel": return pokemonType.steel;
-            case "water": return pokemonType.steel;
-            case "bug": return pokemonType.steel;
-            case "dragon": return pokemonType.steel;
-            case "electric": return pokemonType.steel;
-            case "ghost": return pokemonType.steel;
-            case "fire": return pokemonType.steel;
-            case "fairy": return pokemonType.steel;
-            case "ice": return pokemonType.steel;
-            case "fight": return pokemonType.steel;
-            case "normal": return pokemonType.steel;
-            case "grass": return pokemonType.steel;
-            case "psychic": return pokemonType.steel;
-            case "rock": return pokemonType.steel;
-            case "dark": return pokemonType.steel;
-            case "ground": return pokemonType.steel;
-            case "poison": return pokemonType.steel;
-            case "flying": return pokemonType.steel;
-            case "light": return pokemonType.steel;
-            case "demon": return pokemonType.steel;
-            case "shadow": return pokemonType.steel;
+            case "water": return pokemonType.water;
+            case "bug": return pokemonType.bug;
+            case "dragon": return pokemonType.dragon;
+            case "electric": return pokemonType.electric;
+            case "ghost": return pokemonType.ghost;
+            case "fire": return pokemonType.fire;
+            case "fairy": return pokemonType.fairy;
+            case "ice": return pokemonType.ice;
+            case "fight": return pokemonType.fight;
+            case "normal": return pokemonType.normal;
+            case "grass": return pokemonType.grass;
+            case "psychic": return pokemonType.psychic;
+            case "rock": return pokemonType.rock;
+            case "dark": return pokemonType.dark;
+            case "ground": return pokemonType.ground;
+            case "poison": return pokemonType.poison;
+            case "flying": return pokemonType.flying;
+            case "light": return pokemonType.light;
+            case "demon": return pokemonType.demon;
+            case "shadow": return pokemonType.shadow;
             default: return pokemonType.none;
         }
     }

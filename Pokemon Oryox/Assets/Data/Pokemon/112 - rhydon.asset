@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a24bcd988ca104dbab12e4f82b8798, type: 3}
+  m_Name: 112 - rhydon
+  m_EditorClassIdentifier: 
+  id: 112
+  speciesName: rhydon
+  type1: 16
+  type2: 14
+  sprite: {fileID: 21300000, guid: 3ef70e1c371748a488ade3f680e9109e, type: 3}
+  shiny: {fileID: 21300000, guid: 88e06d59384f50f4e82ad9a833826bd7, type: 3}

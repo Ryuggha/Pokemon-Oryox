@@ -335,10 +335,6 @@ namespace PokeApiJSON
     {
         public int slot { get; set; }
         public Type type { get; set; }
-    }
-
-    public class Type2
-    {
         public string name { get; set; }
         public string url { get; set; }
     }
