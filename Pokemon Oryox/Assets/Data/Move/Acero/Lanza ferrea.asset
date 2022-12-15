@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
+  m_Name: Lanza ferrea
+  m_EditorClassIdentifier: 
+  moveName: "Lanza f\xE9rrea"
+  isPasive: 0
+  type: 1
+  description: "Ataca con una larga lanza que inflige 2 puntos de da\xF1o f\xEDsico
+    y 2 de da\xF1o de acero. 10% de probabilidad de \u201CCromar\u201D."
+  coste: 4PP
+  range: 2-4
+  notes: "Refinado: Ignora la armadura f\xEDsica.\nCromado: Cada vez que tu pok\xE9mon
+    gana el estado de \u201Ccromado\u201D aumenta su defensa f\xEDsica en +1 permanentemente
+    (m\xE1x 5). Una vez alcanzado el m\xE1ximo, el siguiente turno obtiene +2 acciones
+    adicionales, +2 al movimiento y +2 al ataque f\xEDsico, luego se pierden todas
+    las cargas de \u201Ccromado\u201D.\n Refinado: Puedes eliminar una carga de Cromado
+    para dar un bonus adicional a tus habilidades.\r\n"

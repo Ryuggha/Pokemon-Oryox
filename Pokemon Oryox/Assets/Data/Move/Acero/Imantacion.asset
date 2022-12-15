@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
+  m_Name: Imantacion
+  m_EditorClassIdentifier: 
+  moveName: Imantacion
+  isPasive: 0
+  type: 1
+  description: "Atraes a los pok\xE9mon que est\xE9n a 4 cuadrados o menos hacia
+    ti, haciendo que impacten contra tu cuerpo e infligiendoles 1 punto de da\xF1o
+    por cada carga de cromado y 1 por cada casilla recorrida de \xE9sta forma. "
+  coste: 5PP
+  range: 
+  notes: "Refinado: Aumenta el rango en +2. \nCromado: Cada vez que tu pok\xE9mon
+    gana el estado de \u201Ccromado\u201D aumenta su defensa f\xEDsica en +1 permanentemente
+    (m\xE1x 5). Una vez alcanzado el m\xE1ximo, el siguiente turno obtiene +2 acciones
+    adicionales, +2 al movimiento y +2 al ataque f\xEDsico, luego se pierden todas
+    las cargas de \u201Ccromado\u201D.\n Refinado: Puedes eliminar una carga de Cromado
+    para dar un bonus adicional a tus habilidades.\r\n"
