@@ -27,7 +27,7 @@ public class CreatePokemonData : MonoBehaviour
         foreach (var pokemon in results)
         {
             PokemonApiData o = ScriptableObject.CreateInstance<PokemonApiData>();
-            o.name = pokemon.name;
+            o.speciesName = pokemon.name;
             
 
             AssetDatabase.CreateAsset(o, $"Assets/Data/Pokemon/{pokemon.name}.asset");
@@ -41,6 +41,27 @@ public class CreatePokemonData : MonoBehaviour
     {
         switch (rawType)
         {
+            case "steel": return pokemonType.steel;
+            case "water": return pokemonType.steel;
+            case "bug": return pokemonType.steel;
+            case "dragon": return pokemonType.steel;
+            case "electric": return pokemonType.steel;
+            case "ghost": return pokemonType.steel;
+            case "fire": return pokemonType.steel;
+            case "fairy": return pokemonType.steel;
+            case "ice": return pokemonType.steel;
+            case "fight": return pokemonType.steel;
+            case "normal": return pokemonType.steel;
+            case "grass": return pokemonType.steel;
+            case "psychic": return pokemonType.steel;
+            case "rock": return pokemonType.steel;
+            case "dark": return pokemonType.steel;
+            case "ground": return pokemonType.steel;
+            case "poison": return pokemonType.steel;
+            case "flying": return pokemonType.steel;
+            case "light": return pokemonType.steel;
+            case "demon": return pokemonType.steel;
+            case "shadow": return pokemonType.steel;
             default: return pokemonType.none;
         }
     }
