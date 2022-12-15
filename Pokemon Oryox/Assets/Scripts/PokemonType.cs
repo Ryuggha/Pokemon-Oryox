@@ -1,0 +1,25 @@
+public enum pokemonType
+{
+    none,
+    steel,
+    water,
+    bug,
+    dragon,
+    electric,
+    ghost,
+    fire,
+    fairy,
+    ice,
+    fight,
+    normal,
+    grass,
+    psychic,
+    rock,
+    dark,
+    ground,
+    poison,
+    flying,
+    light,
+    demon,
+    shadow
+}
