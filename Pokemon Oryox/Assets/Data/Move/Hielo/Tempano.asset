@@ -10,13 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
-  m_Name: Arenas perdidas
+  m_Name: Tempano
   m_EditorClassIdentifier: 
-  moveName: 'Arenas perdidas '
-  isPasive: 1
-  type: 16
-  description: "Cuando tu pok\xE9mon recibe da\xF1o, suelta arena en su ubicaci\xF3n.
-    La arena ralentiza el movimiento del pok\xE9mon en -1."
-  coste: 
-  range: 
-  notes: 
+  moveName: "T\xE9mpano"
+  isPasive: 0
+  type: 9
+  description: "Dispara un peque\xF1o proyectil de hielo afilado al pok\xE9mon objetivo.
+    Inflige 2 puntos de da\xF1o y tiene un 20% de probabilidad de enfriar."
+  coste: 3PP
+  range: 1-3
+  notes: "Enfriar: A las 5 cargas de \"enfriado\", el pok\xE9mon rival se congela,
+    perdiendo su pr\xF3ximo turno. "

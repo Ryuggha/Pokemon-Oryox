@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
-  m_Name: Arenas perdidas
+  m_Name: Tinieblas
   m_EditorClassIdentifier: 
-  moveName: 'Arenas perdidas '
+  moveName: Tinieblas
   isPasive: 1
-  type: 16
-  description: "Cuando tu pok\xE9mon recibe da\xF1o, suelta arena en su ubicaci\xF3n.
-    La arena ralentiza el movimiento del pok\xE9mon en -1."
+  type: 6
+  description: "Cubre el terreno por unas extra\xF1as tinieblas. Reduce en -2 el
+    rango de todas las habilidades de los pok\xE9mon que no sean tipo fantasma."
   coste: 
   range: 
   notes: 

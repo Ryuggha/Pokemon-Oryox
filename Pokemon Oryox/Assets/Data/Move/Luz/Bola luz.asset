@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
+  m_Name: Bola luz
+  m_EditorClassIdentifier: 
+  moveName: Bola luz
+  isPasive: 0
+  type: 19
+  description: "Inflinge 2 puntos de da\xF1o. 20% adicional de adquirir barrera sagrada.
+    Si ya tienes todas las cargas dobla su da\xF1o."
+  coste: 
+  range: 
+  notes: "Barrera sagrada: Una barrera de luz protege al pok\xE9mon contra efectos
+    negativos que se le fueran a aplicar y es removida tras protegerlo de uno de
+    ellos. (max. 2)\r\nPurificar: Elimina un efecto negativo de un pok\xE9mon objetivo.\r\n(Todas
+    las habilidades de luz poseen un 10% de activar barrera sagrada y purificar,
+    de forma individual)\r\n"

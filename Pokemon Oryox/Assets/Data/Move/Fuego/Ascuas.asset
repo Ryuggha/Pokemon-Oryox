@@ -10,13 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
-  m_Name: Arenas perdidas
+  m_Name: Ascuas
   m_EditorClassIdentifier: 
-  moveName: 'Arenas perdidas '
-  isPasive: 1
-  type: 16
-  description: "Cuando tu pok\xE9mon recibe da\xF1o, suelta arena en su ubicaci\xF3n.
-    La arena ralentiza el movimiento del pok\xE9mon en -1."
+  moveName: Ascuas
+  isPasive: 0
+  type: 7
+  description: "Crea una chispas de fuego que da\xF1an al enemigo objetivo, haciendole\r\n2
+    puntos de da\xF1o con probabilidad de aplicar quemaduras (20%)"
   coste: 
   range: 
-  notes: 
+  notes: "Quemadura: Estado que hace 1 punto de da\xF1o de fuego por turno durante
+    1 d4."

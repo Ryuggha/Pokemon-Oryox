@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
-  m_Name: Arenas perdidas
+  m_Name: Viento aciago
   m_EditorClassIdentifier: 
-  moveName: 'Arenas perdidas '
-  isPasive: 1
-  type: 16
-  description: "Cuando tu pok\xE9mon recibe da\xF1o, suelta arena en su ubicaci\xF3n.
-    La arena ralentiza el movimiento del pok\xE9mon en -1."
-  coste: 
-  range: 
-  notes: 
+  moveName: Viento aciago
+  isPasive: 0
+  type: 18
+  description: "Dispara una r\xE1faga de aire r\xE1pida, que inflige 1 punto de da\xF1o
+    volador y tiene un 10% de aumentar tu ataque especial en 1 durante 2 turnos. "
+  coste: 1PP
+  range: 1-8
+  notes: 'Se puede acumular. '

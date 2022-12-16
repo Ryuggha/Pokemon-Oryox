@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
-  m_Name: Arenas perdidas
+  m_Name: "Pu\xF1etazo"
   m_EditorClassIdentifier: 
-  moveName: 'Arenas perdidas '
-  isPasive: 1
-  type: 16
-  description: "Cuando tu pok\xE9mon recibe da\xF1o, suelta arena en su ubicaci\xF3n.
-    La arena ralentiza el movimiento del pok\xE9mon en -1."
-  coste: 
-  range: 
+  moveName: "Pu\xF1etazo"
+  isPasive: 0
+  type: 10
+  description: "Asesta un fuerte pu\xF1etazo al objetivo infligiendole 3 puntos de
+    da\xF1o f\xEDsico tipo lucha."
+  coste: 2PE
+  range: 1
   notes: 

@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
-  m_Name: Arenas perdidas
+  m_Name: Mordisco
   m_EditorClassIdentifier: 
-  moveName: 'Arenas perdidas '
-  isPasive: 1
-  type: 16
-  description: "Cuando tu pok\xE9mon recibe da\xF1o, suelta arena en su ubicaci\xF3n.
-    La arena ralentiza el movimiento del pok\xE9mon en -1."
-  coste: 
-  range: 
-  notes: 
+  moveName: Mordisco
+  isPasive: 0
+  type: 15
+  description: "Muerde con agresividad al pok\xE9mon objetivo haciendole 2 puntos
+    de da\xF1o f\xEDsico y siniestro. Tiene un 30% de hacer retroceder al rival."
+  coste: 2PE
+  range: 1
+  notes: "Retroceder: Pierde 1 acci\xF3n. "

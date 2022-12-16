@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
-  m_Name: Arenas perdidas
+  m_Name: Buena forma
   m_EditorClassIdentifier: 
-  moveName: 'Arenas perdidas '
+  moveName: Buena forma
   isPasive: 1
-  type: 16
-  description: "Cuando tu pok\xE9mon recibe da\xF1o, suelta arena en su ubicaci\xF3n.
-    La arena ralentiza el movimiento del pok\xE9mon en -1."
+  type: 10
+  description: "Tu movimiento e iniciativa aumentan en +1. Adem\xE1s si en un turno
+    has gastado energ\xEDa, \rrecuperas 1 HP al final del turno. "
   coste: 
   range: 
   notes: 

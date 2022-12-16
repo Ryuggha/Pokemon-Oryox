@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
-  m_Name: Arenas perdidas
+  m_Name: Acuosidad
   m_EditorClassIdentifier: 
-  moveName: 'Arenas perdidas '
+  moveName: Acuosidad
   isPasive: 1
-  type: 16
-  description: "Cuando tu pok\xE9mon recibe da\xF1o, suelta arena en su ubicaci\xF3n.
-    La arena ralentiza el movimiento del pok\xE9mon en -1."
+  type: 2
+  description: "Si est\xE1s dentro o bajo el agua obtienes +1 a todas tus tiradas.
+    Reduce un 50% el da\xF1o recibido de ataques de tipo fuego y agua. "
   coste: 
   range: 
-  notes: 
+  notes: 'Aplicable tambien si llueve. '
