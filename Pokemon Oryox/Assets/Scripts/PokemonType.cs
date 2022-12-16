@@ -21,5 +21,6 @@ public enum pokemonType
     flying,
     light,
     demon,
-    shadow
+    shadow,
+    cosmic
 }

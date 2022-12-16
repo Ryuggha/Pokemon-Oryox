@@ -90,6 +90,7 @@ public class CreatePokemonData : MonoBehaviour
             case "light": return pokemonType.light;
             case "demon": return pokemonType.demon;
             case "shadow": return pokemonType.shadow;
+            case "cosmic": return pokemonType.cosmic;
             default: return pokemonType.none;
         }
     }
