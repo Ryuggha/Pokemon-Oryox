@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Dureza
   m_EditorClassIdentifier: 
-  moveName: Dureza(pasiva)
-  isPasive: 0
+  moveName: Dureza
+  isPasive: 1
   type: 1
   description: "Todo tu da\xF1o cuenta como da\xF1o f\xEDsico y da\xF1o de acero.
     +1 defensa f\xEDsica."
