@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Carga voltio
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Carga voltio
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 5
+  description: "Carga contra el enemigo rodeado de rayos, infligi\xE9ndole 2 puntos
+    de da\xF1o el\xE9ctricos y 1 f\xEDsico. "
+  coste: 2PP 2PE
+  range: 1-4
+  notes: "Puedes consumir una acci\xF3n adicional para aumentar el rango en +2(indefinidamente). "

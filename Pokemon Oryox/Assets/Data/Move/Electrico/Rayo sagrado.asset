@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Rayo sagrado
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Rayo sagrado
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 5
+  description: "Dispara un rayo que brilla intensamente, inflige 2 puntos de da\xF1o
+    el\xE9ctrico y 1 de luz. \n20% de cegar. "
+  coste: 4PP
+  range: 1-2
+  notes: 'Cegado: Reduce un 20% la probabilidad de acierto y en 1 el rango de sus
+    habilidades.'

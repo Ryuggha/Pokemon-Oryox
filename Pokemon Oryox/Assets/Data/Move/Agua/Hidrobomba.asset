@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Hidrobomba
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Hidrobomba
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 2
+  description: "Dispara una poderosa r\xE1faga de agua a presi\xF3n que inflinge
+    8 puntos de da\xF1o. Si el\r objetivo recibe esta habilidad a bocajarro recibir\xE1
+    2 m\xE1s y ser\xE1 empujado una distancia de 4."
+  coste: 10PP
+  range: 2-6
+  notes: 70% acierto

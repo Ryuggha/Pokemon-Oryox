@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Caparazon malvado
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: "Caparaz\xF3n malvado"
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
+  type: 20
+  description: "Crea una barrera de energ\xEDa que absorbe por completo la siguiente
+    habilidad especial que fueras a recibir y te cura el 100% del da\xF1o absorbido
+    de \xE9sta manera."
+  coste: 6PP
   range: 
-  notes: 
+  notes: 'Habilidad en respuesta. '

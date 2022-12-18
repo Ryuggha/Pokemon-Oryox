@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Acecho
   m_EditorClassIdentifier: 
-  moveName: 
-  isPasive: 0
-  type: 0
-  description: 
+  moveName: Acecho
+  isPasive: 1
+  type: 3
+  description: "Cada vez que un pok\xE9mon que no sea tipo bicho gaste 1 habilidad
+    de v\xEDnculo, \xE9ste pierde 5HP o debe consumir 2 puntos en lugar de 1."
   coste: 
   range: 
   notes: 

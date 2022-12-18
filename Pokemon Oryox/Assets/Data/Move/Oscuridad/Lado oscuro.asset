@@ -12,10 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Lado oscuro
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Lado oscuro
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 21
+  description: "Convierte una habilidad del pok\xE9mon rival en tipo oscuro. Aumenta
+    su coste un 25%\r. \n"
+  coste: 3PP
+  range: 1-5
+  notes: "Corrupto: Las habilidades de tipo Oscuro se pagan con HP en vez de sus
+    otros costes. Si el pok\xE9mon tiene tipo Oscuro paga las habilidades de forma
+    normal\r\n"

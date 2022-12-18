@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Rayo fulminante
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Rayo fulminante
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
+  type: 5
+  description: "Dispara un rayo que fulmina al objetivo, infligi\xE9ndole 5 puntos
+    de da\xF1o y eliminando 2 PE."
+  coste: 4PP 2PE
+  range: 1-6
   notes: 

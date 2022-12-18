@@ -12,10 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Hidropulso
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Hidropulso
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 2
+  description: "Dispara una peque\xF1a r\xE1faga de agua a presi\xF3n que golpea
+    con fuerza al objetivo y le\r empuja 2 cuadrados. Probabilidad de hacer retroceder
+    al objetivo (10%)"
+  coste: 1PP
+  range: 1-6
+  notes: "Habilidad en respuesta\r\n70% acierto\nHacer retroceder: El pok\xE9mon
+    que haya sido afectado por el efecto retroceder pierde el resto de sus acciones
+    del turno."

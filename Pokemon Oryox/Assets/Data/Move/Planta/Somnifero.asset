@@ -10,12 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
-  m_Name: Flash luminoso
+  m_Name: Somnifero
   m_EditorClassIdentifier: 
-  moveName: Flash luminoso
+  moveName: Somnifero
   isPasive: 0
-  type: 19
-  description: 'Desaparece y vuelve a entrar al siguiente turno. Habilidad en respuesta. '
-  coste: 15PP
+  type: 12
+  description: "Crea unos polvos que llenan el campo de batalla. Al inhalarlos los
+    pok\xE9mon se duermen durante 2 turnos. (Lucha de voluntades)"
+  coste: 2PP
   range: 1-2
-  notes: Habilidad en respuesta.
+  notes: "Todas las habilidades de tipo planta tienen retroalimentaci\xF3n. (10%)
+    / Retroalimentaci\xF3n: El pok\xE9mon recupera el coste de dicha habilidad.\r\n"

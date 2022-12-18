@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Cortefuria
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Cortefuria
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 3
+  description: "Asesta un poderoso corte que inflige 1 punto de da\xF1o por cada
+    punto de HP que le falte a tu pok\xE9mon. 10% de probabilidad de distraer. "
+  coste: 5PP
+  range: 1-2
+  notes: "70% de acierto\nDistraer: Pierde un uso de habilidad de v\xEDnculo. "

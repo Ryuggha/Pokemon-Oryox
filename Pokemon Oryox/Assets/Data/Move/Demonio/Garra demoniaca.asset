@@ -12,10 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Garra demoniaca
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: "Garra demon\xEDaca"
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 20
+  description: "Ataca con una garra demon\xEDaca infligiendo 3 puntos de da\xF1o
+    f\xEDsicos +3 si el objetivo est\xE1 maldito.\nPacto oscuro: Si el pok\xE9mon
+    no est\xE1 maldito, lo maldice directamente despu\xE9s de infligir da\xF1o."
+  coste: 1PP 2PE
+  range: 1
+  notes: "\nPacto oscuro: El coste adicional para activarlo es la cantidad equivalente
+    al coste de la habilidad en HP.\r\nPacto oscuro es un coste adicional a tus habilidades
+    que a\xF1ade una mejor\xEDa a \xE9stas y debe ser pagado al mismo momento.\r\n\r\nMaldecir:
+    Cada vez que finalice tu turno y hayas perdido HP de cualquier forma, inflige
+    1 punto de da\xF1o a todos los pok\xE9mon malditos y recuperas 1HP.\r\nMaldecir
+    tiene una duraci\xF3n de 1d4 turnos."

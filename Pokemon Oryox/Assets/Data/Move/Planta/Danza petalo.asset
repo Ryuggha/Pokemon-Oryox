@@ -12,10 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Danza petalo
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: "Danza p\xE9talo"
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 12
+  description: "Ejecuta una danza llenando el campo de p\xE9talos que reducen en
+    10% el acierto de todos los pok\xE9mon que no sean tipo planta. Los pok\xE9mon
+    que fallen un movimiento pierden 1 punto de recurso adicional Dura 5 turnos."
+  coste: '5PP '
+  range: Global
+  notes: "Todas las habilidades de tipo planta tienen retroalimentaci\xF3n. (10%)
+    / Retroalimentaci\xF3n: El pok\xE9mon recupera el coste de dicha habilidad.\r\n"

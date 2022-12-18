@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Premonicion
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: "Premonici\xF3n"
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
+  type: 22
+  description: "Tu pok\xE9mon tiene una visi\xF3n corta del futuro y se prepara para
+    protegerse del siguiente ataque o habilidad volvi\xE9ndose inmune. Luego contraataca
+    infligiendo 3 puntos de da\xF1o. "
+  coste: 4PP
+  range: 1-6
   notes: 

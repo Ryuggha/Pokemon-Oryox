@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Portal cosmico
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: "Portal c\xF3smico"
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 22
+  description: "Crea un peque\xF1o portal que pueden cruzar los pok\xE9mon c\xF3smicos
+    y las habilidades de\r \xE9stos(infiderentemente del tipo). "
+  coste: 5PP
+  range: 1-3
+  notes: "Duraci\xF3n infinita. 3 usos."

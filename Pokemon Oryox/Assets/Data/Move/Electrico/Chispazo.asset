@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Chispazo
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Chispazo
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 5
+  description: "Dispara un fuerte chispazo que inflige 2 puntos de da\xF1o al objetivo. "
+  coste: 3PP
+  range: 1-2
+  notes: 'Habilidad en respuesta. '

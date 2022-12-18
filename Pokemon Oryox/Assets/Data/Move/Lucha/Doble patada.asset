@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Doble patada
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Doble patada
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 10
+  description: Golpea al objetivo con dos patadas consecutivas que infligen 1d4 cada
+    una.
+  coste: 4PE
+  range: 1
+  notes: Cada patada aplica efectos de impacto.

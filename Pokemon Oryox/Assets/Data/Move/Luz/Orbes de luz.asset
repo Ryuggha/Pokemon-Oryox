@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Orbes de luz
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Orbes de luz
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
+  type: 19
+  description: 'Crea 3 orbes que orbitan alrededor de tu pokemon, Cada vez que finalizas
+    tu turno puedes decir recuperar 10% de hp , empezar tu el siguiente turno, o
+    inflingir un 10% hp al pokemon rival. '
+  coste: 15PP
   range: 
   notes: 

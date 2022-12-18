@@ -12,10 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Castigo
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Castigo
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 20
+  description: "Inflige 4 puntos de da\xF1o, si perdiste salud \xE9ste turno inflige
+    +2 puntos de da\xF1o. 20% de \rprobabilidad de maldecir.\nPacto oscuro: No se
+    puede esquivar ni responder."
+  coste: 3PP
+  range: 1-3
+  notes: "Maldecir: Cada vez que finalice tu turno y hayas perdido HP de cualquier
+    forma, inflige 1 punto de da\xF1o a todos los pok\xE9mon malditos y recuperas
+    1HP. Maldecir tiene una duraci\xF3n de 1d4 turnos."

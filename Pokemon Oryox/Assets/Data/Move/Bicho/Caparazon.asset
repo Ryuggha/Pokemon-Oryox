@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Caparazon
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: "Caparaz\xF3n"
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
+  type: 3
+  description: "El pok\xE9mon se cubre con un duro caparaz\xF3n reduciendo la siguiente
+    habilidad f\xEDsica en 50% y un 25% las habilidades especiales. Si se reduce
+    6 puntos de da\xF1o o m\xE1s, elimina 1 uso de habilidad de v\xEDnculo del atacante."
+  coste: 5PP
   range: 
-  notes: 
+  notes: Habilidad en respuesta

@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Absorber
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Absorber
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 12
+  description: "Drena la energia vital del pok\xE9mon objetivo. Inflinge un 10% de
+    la salud total (tipo planta) del pok\xE9mon y te curas el doble."
+  coste: 5PP
+  range: 1-3
+  notes: "70% acierto\nTodas las habilidades de tipo planta tienen retroalimentaci\xF3n.
+    (10%) / Retroalimentaci\xF3n: El pok\xE9mon recupera el coste de dicha habilidad.\r\n"

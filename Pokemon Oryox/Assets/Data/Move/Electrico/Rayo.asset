@@ -21,4 +21,4 @@ MonoBehaviour:
   coste: 5PP
   range: 1-4
   notes: 'Paralizado: 10% de probabilidad de quedarte paralizado y perder el turno
-    restante cada vez que te mueves.'
+    restante cada vez que te mueves. Puede acumularse 10 veces y dura 3 turnos. '

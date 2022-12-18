@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Disparo demora
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Disparo demora
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 3
+  description: "Reduce en 1 el total de acciones del pok\xE9mon. \xC9ste efecto se
+    considera alterado y negativo. "
+  coste: 2PP
+  range: 1-4
+  notes: 20% de acierto

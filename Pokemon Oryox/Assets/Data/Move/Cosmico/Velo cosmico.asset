@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Velo cosmico
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: "Velo c\xF3smico"
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
+  type: 22
+  description: "Cubre al pok\xE9mon con un velo c\xF3smico que absorbe cualquier
+    habilidad especial y te regenera 1 suerte."
+  coste: 8PP
   range: 
-  notes: 
+  notes: Habilidad en respuesta.

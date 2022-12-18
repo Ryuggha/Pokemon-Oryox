@@ -12,10 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Bendicion sagrada
   m_EditorClassIdentifier: 
-  moveName: 
-  isPasive: 0
-  type: 0
-  description: 
+  moveName: "Bendici\xF3n sagrada"
+  isPasive: 1
+  type: 19
+  description: 'Si fueras a ser debilitado recuperas un 25% de tu hp y ejecutas un
+    destello gratuito.
+
+'
   coste: 
   range: 
   notes: 

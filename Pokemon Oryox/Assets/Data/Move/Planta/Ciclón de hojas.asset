@@ -12,10 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: "Cicl\xF3n de hojas"
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: "Cicl\xF3n de hojas"
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 12
+  description: "Invoca un cicl\xF3n de hojas que giran alrededor del pok\xE9mon enemigo
+    haciendole 1\r punto de da\xF1o de tipo planta cada turno y reduciendo su precisi\xF3n
+    un 10%. Dura 1 d4. "
+  coste: 6PP
+  range: 1-3
+  notes: "Repetici\xF3n: 20%\nTodas las habilidades de tipo planta tienen retroalimentaci\xF3n.
+    (10%) / Retroalimentaci\xF3n: El pok\xE9mon recupera el coste de dicha habilidad.\r\nRepetici\xF3n:
+    Tienes la probabilidad de repetir la habilidad sin coste de acci\xF3n ni recursos,
+    pero con su da\xF1o reducido en un 50%."

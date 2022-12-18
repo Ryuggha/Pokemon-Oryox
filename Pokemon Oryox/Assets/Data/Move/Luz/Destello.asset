@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Destello
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Destello
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
+  type: 19
+  description: "El pok\xE9mon rival debe superar lucha de voluntades para poder tirar
+    probabilad de acierto. 1 turno. Superar lucha de voluntades"
+  coste: 8PP
+  range: Global
   notes: 

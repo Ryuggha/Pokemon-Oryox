@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Vacio
   m_EditorClassIdentifier: 
-  moveName: 
-  isPasive: 0
-  type: 0
-  description: 
+  moveName: "Vac\xEDo"
+  isPasive: 1
+  type: 22
+  description: "Si un pok\xE9mon esquiva un ataque o habilidad le drenas 1PP. Si
+    consumes 3PE le drenas 3PP."
   coste: 
-  range: 
+  range: 1-6
   notes: 

@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Velocidad luz
   m_EditorClassIdentifier: 
-  moveName: 
-  isPasive: 0
-  type: 0
-  description: 
+  moveName: Velocidad luz
+  isPasive: 1
+  type: 19
+  description: "Obtienes +2 acciones cada turno pero todas tus habilidades tienen
+    un 50% de acierto. tus habilidades cuestan 2 pp m\xE1s."
   coste: 
   range: 
   notes: 

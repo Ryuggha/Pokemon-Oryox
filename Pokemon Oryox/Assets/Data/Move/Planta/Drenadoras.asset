@@ -12,10 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Drenadoras
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Drenadoras
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 12
+  description: "Dispara unas semillas al objetivo que germinan rapidamente y le drenan
+    la energia\r vital. Inflingen 1 punto de da\xF1o (tipo planta) durante 1d6. Cada
+    vez que estas hacen\r da\xF1o tu pok\xE9mon recupera 1 punto de energia."
+  coste: 4PP
+  range: 1-2
+  notes: "70% acierto.\r\nNo se pueden acumular.\nTodas las habilidades de tipo planta
+    tienen retroalimentaci\xF3n. (10%) / Retroalimentaci\xF3n: El pok\xE9mon recupera
+    el coste de dicha habilidad.\r\n"

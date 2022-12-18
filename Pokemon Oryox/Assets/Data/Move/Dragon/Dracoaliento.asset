@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Dracoaliento
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Dracoaliento
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 4
+  description: "Lanza un poderoso aliento de drag\xF3n de larga distancia que inflinge
+    m\xE1s da\xF1o cuanto m\xE1s lejos llega. 1 de da\xF1o por cada cuadrado."
+  coste: 5PP
+  range: 1-20
+  notes: "Para determinar la distancia de esta habilidad se usar\xE1 un D20.\r\n70%
+    acierto"

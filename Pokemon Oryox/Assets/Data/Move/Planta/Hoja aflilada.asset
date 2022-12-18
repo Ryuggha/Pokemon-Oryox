@@ -19,4 +19,7 @@ MonoBehaviour:
     de da\xF1o\r\nde tipo planta."
   coste: 4PP
   range: 1-4
-  notes: "Repetici\xF3n 30%"
+  notes: "Repetici\xF3n 30%\nTodas las habilidades de tipo planta tienen retroalimentaci\xF3n.
+    (10%) / Retroalimentaci\xF3n: El pok\xE9mon recupera el coste de dicha habilidad.\r\nRepetici\xF3n:
+    Tienes la probabilidad de repetir la habilidad sin coste de acci\xF3n ni recursos,
+    pero con su da\xF1o reducido en un 50%."

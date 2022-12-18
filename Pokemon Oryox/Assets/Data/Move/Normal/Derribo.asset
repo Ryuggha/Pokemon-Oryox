@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Derribo
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Derribo
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 11
+  description: "Placa al objetivo con una fuerte embestida e inflinge 5 puntos de
+    da\xF1o f\xEDsico.\r\nEl usuario tambi\xE9n recibe 2 puntos de da\xF1o."
+  coste: 4PE
+  range: 1-4
+  notes: "Si es esquivado se mover\xE1 hasta el rango m\xE1ximo. "

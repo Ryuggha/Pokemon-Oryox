@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Onda oscura
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Onda oscura
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
+  type: 21
+  description: "Todos los pok\xE9mon reciben 4 puntos de da\xF1o + 3 por cada uso
+    faltante de usos de v\xEDnculo de los rivales.\r\n"
+  coste: 5PP
+  range: 1-6
   notes: 

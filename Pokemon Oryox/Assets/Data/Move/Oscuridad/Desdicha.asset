@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Desdicha
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Desdicha
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
+  type: 21
+  description: " Inflinge 3 puntos de da\xF1o y consume 1 suerte del pok\xE9mon rival
+    ( 60%). Si ya no tiene suertes, consume un uso de v\xEDnculo."
+  coste: 3PP
+  range: 2-5
   notes: 

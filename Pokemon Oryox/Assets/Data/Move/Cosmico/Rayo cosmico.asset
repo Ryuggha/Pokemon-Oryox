@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Rayo cosmico
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: "Rayo c\xF3smico"
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 22
+  description: "Dispara un rayo c\xF3smico que inflige 3 puntos de da\xF1o. 20% de
+    probabilidad de eclipsar."
+  coste: 3PP
+  range: 1-3
+  notes: "Eclipsar: Reduce en 1 todas las tiradas del pok\xE9mon afectado."

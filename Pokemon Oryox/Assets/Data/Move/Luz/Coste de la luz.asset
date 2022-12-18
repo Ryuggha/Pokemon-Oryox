@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Coste de la luz
   m_EditorClassIdentifier: 
-  moveName: 
-  isPasive: 0
-  type: 0
-  description: 
+  moveName: Coste de la luz
+  isPasive: 1
+  type: 19
+  description: ' Aumenta tus pp un 30% y reduce tu HP en un 20%'
   coste: 
   range: 
   notes: 

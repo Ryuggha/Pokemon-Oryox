@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Luz perdida
   m_EditorClassIdentifier: 
-  moveName: 
-  isPasive: 0
-  type: 0
-  description: 
+  moveName: Luz perdida
+  isPasive: 1
+  type: 19
+  description: "Cuando aun aliado  es debilitado, suma sus estadisticas a las tuyas
+    y obtienes\r +1 acci\xF3n."
   coste: 
   range: 
   notes: 

@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Cadenas de luz
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Cadenas de luz
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 19
+  description: "Al inicio de cada turno haz una lucha de voluntades si superas rompes
+    las cadenas y recibes 2 de da\xF1o por cada turno que las tuvieras. Obtienes
+    + 3 a las tiradas. -1 acci\xF3n\n"
+  coste: 15PP
+  range: 1-3
+  notes: 70% acierto

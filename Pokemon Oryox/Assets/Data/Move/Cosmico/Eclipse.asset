@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Eclipse
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Eclipse
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 22
+  description: "Invierte los PP con los del pok\xE9mon objetivo. Si el objetivo no
+    puede realizar acciones, \xE9ste no se puede resistir. "
+  coste: 3PP
+  range: 1-4
+  notes: "El pok\xE9mon objetivo puede perder 3HP para prevenir el cambio. "

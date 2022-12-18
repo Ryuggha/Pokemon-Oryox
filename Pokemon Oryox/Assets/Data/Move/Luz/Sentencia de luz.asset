@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Sentencia de luz
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Sentencia de luz
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 19
+  description: "Consume todas tus cargas de barrera  para sentenciar  al pok\xE9mon
+    rival y dejandolo al 25% de su HP durante 1 turno ."
+  coste: 15PP
+  range: 1
+  notes: 'Prob. acierto: 10% + 10% de acierto por cada carga de barrera'

@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Masa cosmica
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: "Masa c\xF3smica"
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
+  type: 22
+  description: "Crea un escudo en frente del pok\xE9mon de una extra\xF1a masa c\xF3smica.
+    Obtienes +1 de defensa especial y f\xEDsica. Dura 1d4 turnos. "
+  coste: 3PP
   range: 
   notes: 

@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Gigarayo
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Gigarayo
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 5
+  description: "Canaliza un enorme rayo que consume todas las cargas de par\xE1lisis
+    del objetivo, infligiendo 3 puntos de da\xF1o por cada una y haci\xE9ndole perder
+    las siguientes 2 acciones. "
+  coste: 4PP
+  range: 1-5
+  notes: "70% \xEDndice de golpe. "

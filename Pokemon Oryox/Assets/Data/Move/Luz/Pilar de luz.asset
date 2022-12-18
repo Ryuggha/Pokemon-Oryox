@@ -12,10 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Pilar de luz
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Pilar de luz
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
+  type: 19
+  description: "Crea un pilar de luz en el sitio que envuelve al pokemon objetivo.
+    El pilar dura 2 turnos. Cualquier pok\xE9mon que permanezca dentro del pilar
+    no le afectan los efectos alterados. Adem\xE1s aumenta su rango de ataque en
+    2."
+  coste: 4PP
+  range: 1-6
   notes: 

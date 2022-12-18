@@ -12,10 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Regeneracion diabolica
   m_EditorClassIdentifier: 
-  moveName: 
-  isPasive: 0
-  type: 0
-  description: 
+  moveName: "Regeneraci\xF3n diab\xF3lica"
+  isPasive: 1
+  type: 20
+  description: "Cada vez que recuperes HP de alguna forma, tienes un 20% de probabilidad
+    de maldecir a un pok\xE9mon. "
   coste: 
   range: 
-  notes: 
+  notes: "Maldecir: Cada vez que finalice tu turno y hayas perdido HP de cualquier
+    forma, inflige 1 punto de da\xF1o a todos los pok\xE9mon malditos y recuperas
+    1HP.\r\nMaldecir tiene una duraci\xF3n de 1d4 turnos."

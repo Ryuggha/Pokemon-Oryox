@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Garra dragon
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: "Garra drag\xF3n"
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 4
+  description: "Da un golpe con una garra de drag\xF3n que inglinge da\xF1o moderado
+    10% de HP total y tiene probabilidad de aplicar sangrado (10%)."
+  coste: 3PE
+  range: 1-2
+  notes: "Sangrado: Inflinge 1 punto de da\xF1o f\xEDsico durante 1 d6."

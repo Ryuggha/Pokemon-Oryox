@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Velocidad del rayo
   m_EditorClassIdentifier: 
-  moveName: 
-  isPasive: 0
-  type: 0
-  description: 
+  moveName: Velocidad del rayo
+  isPasive: 1
+  type: 5
+  description: 'Todas tus habilidades pueden usarse en respuesta pagando 1 PE adicional.
+    Aumenta tu iniciativa en +1. '
   coste: 
   range: 
   notes: 

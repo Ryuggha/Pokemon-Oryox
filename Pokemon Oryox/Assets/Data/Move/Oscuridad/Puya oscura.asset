@@ -12,10 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Puya oscura
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Puya oscura
   isPasive: 0
-  type: 0
-  description: 
+  type: 21
+  description: "Infringe 3 puntos de da\xF1o + 1 punto de da\xF1o por cada punto
+    de desesperaci\xF3n activo en el pok\xE9mon rival. 20% de desesperar."
   coste: 
   range: 
-  notes: 
+  notes: "Desesperar:  aplica -1 en todas las tiradas. Se aplica hasta 5 veces. Al
+    llegar a 5 se reinicia y el pok\xE9mon recibe un 20% de su HP total como da\xF1o
+    puro\r."

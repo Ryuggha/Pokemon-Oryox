@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Shuriken de agua
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Shuriken de agua
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 2
+  description: "Lanza varios shurikens de agua (1d4) que impactan al enemigo inflingiendole
+    1\r punto de da\xF1o de agua. Lanza un shuriken adicional por cada accion que
+    le quede\r por hacer al pok\xE9mon rival. "
+  coste: 3PP 1PE
+  range: 1-5
+  notes: Se tiene que superar acierto o esquivar por cada uno de ellos.

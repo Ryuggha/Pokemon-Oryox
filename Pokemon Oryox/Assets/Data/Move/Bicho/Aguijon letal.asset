@@ -10,12 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
-  m_Name: "Prisi\xF3n acuatica"
+  m_Name: Aguijon letal
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: "Aguij\xF3n letal"
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 3
+  description: "Ataca con un agij\xF3n letal que inflige 3 puntos de da\xF1o e inflige
+    2 puntos de da\xF1o adicionales por cada habilidad de v\xEDnculo que le falte
+    al objetivo. 10% de probabilidad de distraer."
+  coste: 5PP
+  range: 1-3
+  notes: "Distraer: Pierde un uso de habilidad de v\xEDnculo. "

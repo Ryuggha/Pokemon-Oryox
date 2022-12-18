@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Zumbido
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Zumbido
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 3
+  description: "Zumbido elimina autom\xE1ticamente 1 uso de habilidades de v\xEDnculo
+    del pok\xE9mon rival. Si no le quedan, entonces inflige 2 puntos de da\xF1o y
+    le hace perder 1PP y 1PE. "
+  coste: 5PP 2 acciones
+  range: 1-7
+  notes: "80% \xEDndice de golpe. "

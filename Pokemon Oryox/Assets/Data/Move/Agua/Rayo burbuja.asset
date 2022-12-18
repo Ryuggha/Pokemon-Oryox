@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Rayo burbuja
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Rayo burbuja
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
+  type: 2
+  description: "Lanza un poderoso rayo de burbujas que inflingen 1 de da\xF1o y tienen
+    una probablidad del 20% de reducir en 1 el movimiento del pok\xE9mon."
+  coste: 3PP
+  range: 1-6
   notes: 

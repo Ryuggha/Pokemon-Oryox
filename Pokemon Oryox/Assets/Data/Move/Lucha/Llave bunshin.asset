@@ -12,10 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Llave bunshin
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Llave bunshin
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 10
+  description: "Atrae la energ\xEDa natural a las extremidades del pok\xE9mon, permiti\xE9ndole
+    manipular brevemente los elementos intangibles y poder as\xED devolver un ataque
+    elemental."
+  coste: 2PP 1PE
+  range: 6
+  notes: 'Habilidad en respuesta.
+
+    Fuego/Agua/Rayo/Luz/Oscuridad'

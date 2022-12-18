@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Aura electrica
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: "Aura el\xE9ctrica"
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 5
+  description: "Rodea al pok\xE9mon objetivo con un aura de electricidad. Cada vez
+    que \xE9ste sufra un ataque f\xEDsico o conductor, inflige 2 puntos de da\xF1o
+    al taumaturgo. "
+  coste: 2PP 2PE
+  range: 1-4
+  notes: "Dura 3 turnos. No afecta a pok\xE9mon el\xE9ctricos. "

@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Fuego estelar
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Fuego estelar
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 22
+  description: "Invoca una lluvia de estrellas fugaces que infligen 3 puntos de da\xF1o
+    al pok\xE9mon objetivo. Se puede ampliar el rango de ataque y reducir su coste. "
+  coste: 3PP
+  range: 1-4
+  notes: "1D10(1-2) \xE9sta habilidad no tiene coste. 1PP=ampliar rango en 1."

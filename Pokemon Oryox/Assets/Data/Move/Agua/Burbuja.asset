@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Burbuja
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Burbuja
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 2
+  description: "Crea varias burbujas alrededor de tu pok\xE9mon (1d4), estas quedaran
+    en el campo de batalla hasta que impacten. Inflingen 2 puntos de da\xF1o."
+  coste: 4PP
+  range: 1
+  notes: "Cada vez que una burbuja impacta 20% de perder acci\xF3n. Las burbujas
+    pueden ofrecer protecci\xF3n."

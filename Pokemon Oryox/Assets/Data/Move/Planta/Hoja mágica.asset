@@ -12,10 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: "Hoja m\xE1gica"
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: "Hoja m\xE1gica"
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 12
+  description: "Dispara una hoja m\xE1gica que inflinge 2 puntos de da\xF1o de tipo
+    planta y reduce en 1 el movimiento del objetivo indefinidamente."
+  coste: 4PP
+  range: 1-2
+  notes: "Si se cambia el pok\xE9mon la velocidad se reestablece.\r\nRepetici\xF3n:
+    10%\nTodas las habilidades de tipo planta tienen retroalimentaci\xF3n. (10%)
+    / Retroalimentaci\xF3n: El pok\xE9mon recupera el coste de dicha habilidad.\r\nRepetici\xF3n:
+    Tienes la probabilidad de repetir la habilidad sin coste de acci\xF3n ni recursos,
+    pero con su da\xF1o reducido en un 50%."

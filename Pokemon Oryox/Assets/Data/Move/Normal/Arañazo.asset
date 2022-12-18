@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: "Ara\xF1azo"
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: "Ara\xF1azo"
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
+  type: 11
+  description: "Ara\xF1a al objetivo y le inflinge 3 puntos de da\xF1o f\xEDsico."
+  coste: 2PE
+  range: 1
   notes: 

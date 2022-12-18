@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Bola de polen
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Bola de polen
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
+  type: 3
+  description: "Crea una bola de polen que estalla contra el objetivo, inflige 3
+    puntos de da\xF1o si el objetivo es enemigo y cura 4HP si es amistoso. "
+  coste: 4PP
+  range: 1-3
   notes: 

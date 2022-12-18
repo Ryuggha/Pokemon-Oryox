@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Chupavidas
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Chupavidas
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 3
+  description: "Inflige 3 puntos de da\xF1o y recupera un 50% del da\xF1o infligido
+    como HP. 30% de probabilidad de distraer. "
+  coste: 3PP 1PE
+  range: 1-3
+  notes: "Distraer: Pierde un uso de habilidad de v\xEDnculo. "

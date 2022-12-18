@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Voltereta
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Voltereta
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 10
+  description: "Ejecutas una voltereta que te mueve 1d4 exactos. Si te queda un 20%
+    de tu energ\xEDa, la voltereta es m\xE1s lenta y dar\xE1 lugar a una lucha de
+    voluntades para ver si dicha voltereta se hace en respuesta."
+  coste: 1PE
+  range: 1d4
+  notes: Habilidad en respuesta

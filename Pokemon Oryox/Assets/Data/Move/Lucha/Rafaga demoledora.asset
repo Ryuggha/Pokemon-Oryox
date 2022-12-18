@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Rafaga demoledora
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: "R\xE1faga demoledora"
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 10
+  description: "Asesta una r\xE1faga de golpes al objetivo que infligen 1 punto de
+    da\xF1o y aplican efectos de impacto cada uno(5 golpes)."
+  coste: 4PE
+  range: 1
+  notes: "El pok\xE9mon puede consumir X PE para aumentar en X el numero de golpes."

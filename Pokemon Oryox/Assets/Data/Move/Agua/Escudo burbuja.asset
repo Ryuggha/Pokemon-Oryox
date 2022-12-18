@@ -12,10 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Escudo burbuja
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Escudo burbuja
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 2
+  description: "Crea un escudo de agua alrededor de tu pok\xE9mon que le protege
+    un 50% de la siguiente habilidad especial que fuera a recibir. Tiene efectos
+    negativos con movimientos super efectivos. Inflinge 1 punto de da\xF1o de agua
+    adyacente al romperse."
+  coste: 4PP
+  range: 1
+  notes: Habilidad en respuesta

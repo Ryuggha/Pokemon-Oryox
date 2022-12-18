@@ -12,10 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Rayo solar
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Rayo solar
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 12
+  description: "El pok\xE9mon pierde un turno acumulando energia solar para desatar
+    en el siguiente\r turno un poderoso rayo con la energia del sol. Inlingiendo
+    16 puntos de da\xF1o de tipo planta. Recupera 3 puntos de energia."
+  coste: 12PP
+  range: 2-8
+  notes: "Rayo solar pierde 2 puntos de da\xF1o por cada golpe de haya recibido el
+    pok\xE9mon que lo cargaba.\nTodas las habilidades de tipo planta tienen retroalimentaci\xF3n.
+    (10%) / Retroalimentaci\xF3n: El pok\xE9mon recupera el coste de dicha habilidad.\r\n"

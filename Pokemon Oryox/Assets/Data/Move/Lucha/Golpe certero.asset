@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Golpe certero
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Golpe certero
   isPasive: 0
   type: 0
-  description: 
-  coste: 
-  range: 
+  description: "Un ataque certero sin ninguna posibilidad de fallo. Inflige 2 puntos
+    de da\xF1o."
+  coste: 2PE
+  range: 1
   notes: 

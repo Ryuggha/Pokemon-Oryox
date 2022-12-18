@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Memento mori
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Memento mori
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
+  type: 21
+  description: "Si en 3 rondas el pok\xE9mon no es cambiado, este tiene un 50% de
+    ser debilitado automaticamente."
+  coste: 10PP
   range: 
-  notes: 
+  notes: 'Infalible. '

@@ -12,10 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Latigo cepa
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: "L\xE1tigo cepa"
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 12
+  description: "Flagela al enemigo con un l\xE1tigo de cepa. Inflinge 1 punto de
+    da\xF1o de tipo planta por golpe. Asesta 1 golpe por cada acci\xF3n que hiciera
+    el pok\xE9mon enemigo en su\r anterior turno."
+  coste: 4PP 1PE
+  range: 3-8
+  notes: "Puedes consumir 1 acci\xF3n adicional para a\xF1adir 1 golpe m\xE1s. (indefinidamente).
+    Repetici\xF3n: 20%\nTodas las habilidades de tipo planta tienen retroalimentaci\xF3n.
+    (10%) / Retroalimentaci\xF3n: El pok\xE9mon recupera el coste de dicha habilidad.\r\nRepetici\xF3n:
+    Tienes la probabilidad de repetir la habilidad sin coste de acci\xF3n ni recursos,
+    pero con su da\xF1o reducido en un 50%."

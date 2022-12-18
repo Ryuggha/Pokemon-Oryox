@@ -12,10 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Germinacion
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: "Germinaci\xF3n"
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 12
+  description: "Crea naturaleza en un suelo \xE1rido, haciendo germinar una capa
+    densa de hierba alta que ocupa 10 cuadrados. Dentro de esa area los pok\xE9mon
+    tipo planta tienen 1 acci\xF3n m\xE1s cada vez que empiezan su turno all\xED."
+  coste: 3PP
+  range: 1
+  notes: "La germinaci\xF3n es permanente.\nTodas las habilidades de tipo planta
+    tienen retroalimentaci\xF3n. (10%) / Retroalimentaci\xF3n: El pok\xE9mon recupera
+    el coste de dicha habilidad.\r\n"

@@ -12,10 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Trueno
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Trueno
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 5
+  description: "Tu pok\xE9mon carga una gran cantidad de electricidad para desatarla
+    a continuaci\xF3n en un poderoso trueno que inflige 12 puntos de da\xF1o. Si
+    el objetivo est\xE1 paralizado, no puede intentar esquivarlo. Aplica paralizado
+    x 2. "
+  coste: '5PP '
+  range: 3 acciones
+  notes: "50% \xEDndice de golpe. "

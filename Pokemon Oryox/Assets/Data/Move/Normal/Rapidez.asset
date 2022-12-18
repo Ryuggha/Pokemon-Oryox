@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Rapidez
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Rapidez
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
+  type: 11
+  description: "Golpea al objetivo e inflinge 2 puntos de da\xF1o f\xEDsico. Esta
+    habilidad no se ve afectada por reducciones de probabilidad de golpe y no puede
+    esquivarse."
+  coste: 3PE
+  range: 2
   notes: 

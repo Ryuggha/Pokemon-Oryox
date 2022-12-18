@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Paralizador
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Paralizador
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 12
+  description: "Dispara unos polvos que paralizan al pok\xE9mon objetivo durante
+    1 d4 en turnos."
+  coste: 3PP
+  range: 1-5
+  notes: "Todas las habilidades de tipo planta tienen retroalimentaci\xF3n. (10%)
+    / Retroalimentaci\xF3n: El pok\xE9mon recupera el coste de dicha habilidad.\r\n"

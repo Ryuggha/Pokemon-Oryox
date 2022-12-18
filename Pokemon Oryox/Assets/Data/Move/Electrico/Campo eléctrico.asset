@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: "Campo el\xE9ctrico"
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: "Campo el\xE9ctrico"
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 5
+  description: "Desata corriente por todo el campo aumentando el movimiento en +2
+    y la iniciativa en +1 a todos los pok\xE9mon el\xE9ctricos. Si un pokl\xE9mon
+    no se mueve durante 3 acciones, recibe 2 puntos de da\xF1o. "
+  coste: 5PP
+  range: Global
+  notes: 'Dura 5 turnos. '

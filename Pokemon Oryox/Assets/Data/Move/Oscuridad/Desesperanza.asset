@@ -12,10 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Desesperanza
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Desesperanza
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 21
+  description: "Inflige 6 puntos de da\xF1o con un 30% de aplicar desesperaci\xF3n.
+    si el objetivo est\xE1 desesperado recupera el coste de la habilidad."
+  coste: 4PP
+  range: 1-6
+  notes: "Desesperar:  aplica -1 en todas las tiradas. Se aplica hasta 5 veces. Al
+    llegar a 5 se reinicia y el pok\xE9mon recibe un 20% de su HP total como da\xF1o
+    puro\r.\n"

@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Chirrido
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Chirrido
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
+  type: 11
+  description: Reduce la defensa especial del objetivo en -1 en las siguientes habilidades
+    que acierten, durante 1 d4. El efecto se puede acumular hasta 3 veces.
+  coste: 3PP
+  range: Global
   notes: 

@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Esfera aural
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Esfera aural
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 10
+  description: "Sacrifica HP para canalizar una bola de energ\xEDa que dispara al
+    objetivo, infligiendole 1 punto de da\xF1o por cada HP sacrificado."
+  coste: 1PE
+  range: 2-20
+  notes: "El da\xF1o de esfera aural aumenta en +2 por cada cuadrado recorrido y
+    la probabilidad de esquivar en +10%."

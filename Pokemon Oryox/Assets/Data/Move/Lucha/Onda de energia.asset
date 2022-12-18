@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Onda de energia
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Onda de energia
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
+  type: 10
+  description: "Desata una poderosa onda de energ\xEDa que atraviesa el campo de
+    batalla hasta impactar al objetivo, caus\xE1ndole 1 punto de da\xF1o por cada
+    HP que le falte al pok\xE9mon rival."
+  coste: 2PP 2PE
+  range: 2-6
   notes: 

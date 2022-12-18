@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Pulso dragon
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: "Pulso drag\xF3n"
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 4
+  description: "Inflinge 5 puntos de da\xF1o a todos los pok\xE9mon que hayan gastado
+    8PP o m\xE1s en el turno anterior."
+  coste: 5PP
+  range: Global
+  notes: No se puede esquivar

@@ -12,10 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Agarre oscuro
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Agarre oscuro
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 20
+  description: "Atrae con fuerzas malignas al pok\xE9mon objetivo y le inflige 1
+    punto de da\xF1o por cada casilla recorrida de \xE9sta forma. \nPacto oscuro:
+    A\xF1ade otro D8 al rango y reduce la prob de esquivar en 30%."
+  coste: 4PP
+  range: 1d8
+  notes: "Pacto oscuro: El coste adicional para activarlo es la cantidad equivalente
+    al coste de la habilidad en HP. Pacto oscuro es un coste adicional a tus habilidades
+    que a\xF1ade una mejor\xEDa a \xE9stas y debe ser pagado al mismo momento."

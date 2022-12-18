@@ -12,10 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Geiser
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: "G\xE9iser"
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 2
+  description: "Crea un g\xE9iser que brota del suelo a una distancia de 2 + D6 hacia
+    arriba, haciendo\r 3 puntos de da\xF1o fuego/agua. Catapulta el pok\xE9mon que
+    estubiera abajo del\r G\xE9iser antes de que se creara."
+  coste: 5PP
+  range: 1-6
+  notes: "Los bonus de distancia y de da\xF1o se doblan si el G\xE9iser se crea en
+    el agua y dura 3 turnos."

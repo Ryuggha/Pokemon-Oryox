@@ -12,10 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Piroaliento
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Piroaliento
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 20
+  description: "Exhala un aliento de fuego demon\xEDaco que inflige 2 puntos de da\xF1o
+    de fuego y 2 de demonio. 20% de probabilidad de maldecir o quemar.\nPacto oscuro:
+    El da\xF1o infligido te sana un 100%."
+  coste: 4PP
+  range: 1-4
+  notes: "Pacto oscuro: El coste adicional para activarlo es la cantidad equivalente
+    al coste de la habilidad en HP. Pacto oscuro es un coste adicional a tus habilidades
+    que a\xF1ade una mejor\xEDa a \xE9stas y debe ser pagado al mismo momento."

@@ -12,10 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Perspicacia
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Perspicacia
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 20
+  description: "Inflige 1 punto de da\xF1o al objetivo y le marca con perspicacia
+    durante 1 turno. Cada vez que el pok\xE9mon marcado con perspicacia se mueva,
+    tu pok\xE9mon puede moverse 1 casilla en\r respuesta.\nPacto oscuro: Dura 1 turno
+    adicional e inflige 1 punto de da\xF1o adicional."
+  coste: 2PP 2PE
+  range: 1-4
+  notes: "Pacto oscuro: El coste adicional para activarlo es la cantidad equivalente
+    al coste de la habilidad en HP. Pacto oscuro es un coste adicional a tus habilidades
+    que a\xF1ade una mejor\xEDa a \xE9stas y debe ser pagado al mismo momento."
