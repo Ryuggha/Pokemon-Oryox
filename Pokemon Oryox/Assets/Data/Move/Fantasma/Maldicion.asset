@@ -15,7 +15,8 @@ MonoBehaviour:
   moveName: "Maldici\xF3n"
   isPasive: 1
   type: 6
-  description: 
+  description: "Dobla el efecto por estados alterados negativos en todos los pok\xE9mon
+    que no sean de tipo fantasma."
   coste: 
   range: 
-  notes: 
+  notes: "No dobla la duraci\xF3n. "

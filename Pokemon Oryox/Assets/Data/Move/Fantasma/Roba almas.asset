@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Roba almas
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Roba almas
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 6
+  description: "Niega una de las habilidades de v\xEDnculo del pok\xE9mon objetivo.
+    Adquiere un bonus de +1 de la habilidad negada. \xC9sta habilidad tiene efecto
+    mientras el pok\xE9mon fantasma permanezca en el campo de batalla. "
+  coste: 4PP
+  range: 1-4
+  notes: "Si el pok\xE9mon afectado es cambiado, \xE9ste recibe 2 puntos de da\xF1o. "

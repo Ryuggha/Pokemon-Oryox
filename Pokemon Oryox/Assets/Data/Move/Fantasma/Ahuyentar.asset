@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Ahuyentar
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Ahuyentar
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
+  type: 6
+  description: "Obliga a salir corriendo al pok\xE9mon objetivo, cancelando la acci\xF3n
+    que estuviera haciendo en ese momento. 10% de probabilidad de aplicar terror. "
+  coste: 3PP
+  range: 1-6
   notes: 

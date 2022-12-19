@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Aparecerse
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Aparecerse
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
+  type: 6
+  description: "Tu pok\xE9mon se aparece traslad\xE1ndose a una larga distancia y
+    recibe un bonus de +2 de ataque especial en tus pr\xF3ximos 2 ataques. "
+  coste: 4PP
+  range: 4-5
   notes: 

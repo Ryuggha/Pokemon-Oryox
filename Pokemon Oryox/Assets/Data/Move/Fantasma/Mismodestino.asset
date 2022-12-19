@@ -12,10 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Mismodestino
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Mismodestino
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 6
+  description: "Tu pok\xE9mon vincula su destino con el del pok\xE9mon rival. Si
+    tu pok\xE9mon queda debilitado o sufre un efecto de estado alterado, el pok\xE9mon
+    vinculado tambi\xE9n."
+  coste: 5PP
+  range: 1-5
+  notes: "Dura 3 turnos. Si se cambia el \rpok\xE9mon vinculado, \xE9ste recibe 3
+    puntos de da\xF1o."

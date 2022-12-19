@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Bola sombra
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Bola sombra
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 6
+  description: "Crea una bola de energ\xEDa maligna con pensamientos oscuros que
+    inflige 3 puntos de da\xF1o. No se puede esquivar."
+  coste: 4PP
+  range: 1-4
+  notes: "Atraviesa objetos f\xEDsicos."

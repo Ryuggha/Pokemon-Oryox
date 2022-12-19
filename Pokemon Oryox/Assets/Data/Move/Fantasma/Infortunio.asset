@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Infortunio
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Infortunio
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
+  type: 6
+  description: "Inflige 3 puntos de da\xF1o m\xE1s un bonus de +5 si el pok\xE9mon
+    sufre cualquier estado alterado."
+  coste: 5PP
+  range: 1-6
   notes: 
