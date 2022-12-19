@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
+  m_Name: Imitacion
+  m_EditorClassIdentifier: 
+  moveName: "Imitaci\xF3n"
+  isPasive: 0
+  type: 13
+  description: "Remplaza esta habilidad por una aleatoria del ok\xE9mon objetivo.\r\n(las
+    pasivas no pueden ser copiadas de esta forma)"
+  coste: 3PP
+  range: 1-6
+  notes: "Si retiras al pok\xE9mon la habilidad copiada se pierde."
