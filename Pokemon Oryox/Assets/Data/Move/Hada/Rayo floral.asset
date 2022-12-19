@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Rayo floral
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Rayo floral
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
+  type: 8
+  description: "Dispara un rayo de flores que inflige 3 puntos de da\xF1o m\xE1s
+    1 punto de da\xF1o multiplicado por la diferencia que haya entre las mismas habilidades
+    de v\xEDnculo tuyas y del pok\xE9mon que recibe el da\xF1o."
+  coste: 4PP
+  range: 1-5
   notes: 

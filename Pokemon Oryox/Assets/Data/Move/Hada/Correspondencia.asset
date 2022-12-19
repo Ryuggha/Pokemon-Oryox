@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Correspondencia
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Correspondencia
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
+  type: 8
+  description: "El pok\xE9mon responde al v\xEDnculo con su entrenador e inflige
+    2 puntos de da\xF1o +1 punto de da\xF1o adicional por cada consonancia activa. "
+  coste: 4PP
+  range: 1-4
   notes: 

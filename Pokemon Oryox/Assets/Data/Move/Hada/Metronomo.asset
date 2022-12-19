@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Metronomo
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: "Metr\xF3nomo"
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 8
+  description: Usa una habilidad aleatoria de todas las existentes
+  coste: 4PP
+  range: 1-5
+  notes: El rango de la habilidad original se ignora.

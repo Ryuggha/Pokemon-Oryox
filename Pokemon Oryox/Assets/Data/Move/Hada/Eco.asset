@@ -12,10 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Eco
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Eco
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
+  type: 8
+  description: Antes de que vayas a tirar un dado, puedes decidir sacar el mismo
+    resultado que la tirada anterior. 10% de probabilidad de generar Consonancia.
+  coste: 2PP
   range: 
-  notes: 
+  notes: "Habilidad en respuesta. S\xF3lo puede usarse en tiradas del mismo tipo
+    de dado. \nConsonancia: Aumenta en +1 el valor de una de tus habilidades de v\xEDnculo
+    de forma temporal. "

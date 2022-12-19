@@ -12,10 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: "Caranto\xF1a"
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: "Caranto\xF1a"
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 8
+  description: "El pok\xE9mon se acerca amistosamente y le proporciona una caricia
+    seguida de una bofetada que inflige 3 puntos de da\xF1o. 10% de probabilidad
+    de generar 1 uso de habilidad de v\xEDnculo."
+  coste: 2PP 2PE
+  range: 2
+  notes: "\xC9sta habilidad no se puede esquivar si es la primera vez que se usa
+    contra ese pok\xE9mon."

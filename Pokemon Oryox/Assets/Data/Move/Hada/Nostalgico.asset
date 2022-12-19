@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Nostalgico
   m_EditorClassIdentifier: 
-  moveName: 
-  isPasive: 0
-  type: 0
-  description: 
+  moveName: "Nost\xE1lgico"
+  isPasive: 1
+  type: 8
+  description: "Cada vez que usas una habilidad de v\xEDnculo, tienes un 20% de probabilidad
+    de no consumir dicho uso."
   coste: 
   range: 
   notes: 
