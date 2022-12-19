@@ -12,10 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Rayo aurora
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Rayo aurora
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 9
+  description: "Dispara un rayo aurora que inflige 2 puntos de da\xF1o de hielo y
+    1 de ps\xEDquico. 20% de probabilidad de confundir y 10% de enfriar."
+  coste: 4PP
+  range: 1-4
+  notes: "80% de \xEDndice de golpe.\nConfundido: cada vez que el pok\xE9mon haga
+    una habilidad ofensiva tiene un 30% de hacersela a \xE9l mismo. Dura 2 turnos.\nEnfriar:
+    A las 5 cargas de \"enfriado\", el pok\xE9mon rival se congela, perdiendo su
+    pr\xF3ximo turno. \n"

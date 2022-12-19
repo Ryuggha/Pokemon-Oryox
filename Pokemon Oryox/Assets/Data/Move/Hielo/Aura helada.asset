@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Aura helada
   m_EditorClassIdentifier: 
-  moveName: 
-  isPasive: 0
-  type: 0
-  description: 
+  moveName: Aura helada
+  isPasive: 1
+  type: 9
+  description: "Tu pok\xE9mon recibe +1 de da\xF1o especial por cada estad\xEDstica
+    negativa que tenga el pok\xE9mon rival."
   coste: 
   range: 
   notes: 

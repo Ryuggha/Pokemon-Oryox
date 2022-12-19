@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Avalancha
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Avalancha
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 9
+  description: "Crea una ola de nieve que empuja a todos los objetivos en frente
+    del pok\xE9mon y les aplica 2 cargas de \u201Cenfriado\u201D."
+  coste: 3PP
+  range: 3ancho
+  notes: "Enfriar: A las 5 cargas de \"enfriado\", el pok\xE9mon rival se congela,
+    perdiendo su pr\xF3ximo turno. "

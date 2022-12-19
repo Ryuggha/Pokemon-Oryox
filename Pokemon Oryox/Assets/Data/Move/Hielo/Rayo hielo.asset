@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Rayo hielo
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Rayo hielo
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 9
+  description: "Dispara un rayo congelado que inflige 5 puntos de da\xF1o de hielo
+    y un bonus de +3 a objetivos congelados. 20% de probabilidad de enfriar. "
+  coste: 5PP
+  range: 1-6
+  notes: "Enfriar: A las 5 cargas de \"enfriado\", el pok\xE9mon rival se congela,
+    perdiendo su pr\xF3ximo turno. "

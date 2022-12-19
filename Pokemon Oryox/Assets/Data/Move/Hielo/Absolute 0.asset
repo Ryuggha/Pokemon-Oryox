@@ -12,10 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Absolute 0
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Absolute 0
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 9
+  description: "Baja la temperatura de una parte del campo, congel\xE1ndolo, haciendo
+    que cualquier pok\xE9mon que no sea tipo hielo que intente cruzar por all\xED
+    se le reduzca su movimiento en -1 y cada acci\xF3n que realice all\xED le aplique
+    una carga de enfriado. "
+  coste: 2PP 2PE
+  range: 1 a 4 3 y ady.
+  notes: "Puedes consumir 5PP para negar que los pok\xE9mon puedan volar durante
+    3 turnos. "

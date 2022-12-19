@@ -12,10 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Negacion helada
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: "Negaci\xF3n helada"
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 9
+  description: "Bloquea uno de los recursos objetivo del pok\xE9mon rival. Cada vez
+    que consume dichos \rrecursos, gastar\xE1 el doble. El recurso bloqueado no puede
+    regenerarse."
+  coste: 3PP
+  range: 1-3
+  notes: 'Dura 2 turnos.
+
+    50% de acierto.'

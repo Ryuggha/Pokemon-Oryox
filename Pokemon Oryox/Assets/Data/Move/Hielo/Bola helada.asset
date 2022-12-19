@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Bola helada
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Bola helada
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
+  type: 9
+  description: "Inflige 1 punto de da\xF1o de tipo hielo y reduce en -2 el siguiente
+    movimiento normal, por energia o habilidad. "
+  coste: 2PP
+  range: 1-7
   notes: 

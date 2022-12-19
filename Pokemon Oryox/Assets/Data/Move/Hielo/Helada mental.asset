@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Helada mental
   m_EditorClassIdentifier: 
-  moveName: 
-  isPasive: 0
-  type: 0
-  description: 
+  moveName: Helada mental
+  isPasive: 1
+  type: 9
+  description: "Reduce en -1 las acciones totales del pok\xE9mon rival. No pueden
+    usarse habilidades en \rrespuesta enemigas. "
   coste: 
-  range: 
+  range: 0-4
   notes: 

@@ -12,10 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Manto helado
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Manto helado
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 9
+  description: "Cubre al pok\xE9mon objetivo con una fina capa de hielo m\xE1gico,
+    que protege de los ataques f\xEDsicos(+1 defensa f\xEDsica). Los ataques f\xEDsicos
+    que recibas tienen un 30% de aplicar una carga de enfriado."
+  coste: 5PP
+  range: 1-4
+  notes: "Habilidad en respuesta.\rDura 2 turnos.\rInmune a quemado.\nEnfriar: A
+    las 5 cargas de \"enfriado\", el pok\xE9mon rival se congela, perdiendo su pr\xF3ximo
+    turno. "

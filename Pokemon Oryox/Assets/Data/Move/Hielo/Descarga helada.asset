@@ -12,10 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Descarga helada
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Descarga helada
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 9
+  description: "Crea una descarga de t\xE9mpanos glaciales que golpean al pok\xE9mon
+    objetivo, infligi\xE9ndole 2 puntos de da\xF1o tipo hielo m\xE1s un bonus de
+    +2 por cada aplicaci\xF3n de enfriado que tenga el pok\xE9mon objetivo. 10% de
+    probabilidad de enfriar. "
+  coste: 4PP
+  range: 1-4
+  notes: "Enfriar: A las 5 cargas de \"enfriado\", el pok\xE9mon rival se congela,
+    perdiendo su pr\xF3ximo turno. "
