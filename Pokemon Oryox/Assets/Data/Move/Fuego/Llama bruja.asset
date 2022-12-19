@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Llama bruja
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Llama bruja
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 7
+  description: "Una llama embrujada que disminuye en 1 el ataque especial del objetivo
+    y le inflinge 2 puntos de da\xF1o. Si ya tiene reducido el ataque especial por
+    este ataque, inflingir\xE1 2 puntos adicionales de tipo psiquico."
+  coste: 5PP
+  range: 1-4
+  notes: '60% acierto. '

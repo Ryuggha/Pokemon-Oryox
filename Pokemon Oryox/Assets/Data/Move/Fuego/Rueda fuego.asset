@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Rueda fuego
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Rueda fuego
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 7
+  description: "Crea una rueda de fuego alrededor del pok\xE9mon, que inflinge 3
+    puntos de da\xF1o a\r todos los pok\xE9mon adyacentes."
+  coste: 5PP
+  range: 1
+  notes: Puedes consumir 2PP adicionales en respuesta para aumentar el rango en 2
+    cuadrados extra.

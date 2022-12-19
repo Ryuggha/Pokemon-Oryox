@@ -12,10 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Lanzallamas
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Lanzallamas
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 7
+  description: "Dispara una poderosa llama a presi\xF3n que inflinge 4 puntos de
+    da\xF1o de fuego. tiene\r probabilidad de aplicar quemaduras (20%). Si golpea
+    al m\xE1ximo rango,\r inflinge +2 puntos de da\xF1o.\r\n"
+  coste: 5PP
+  range: 2-6
+  notes: "Quemadura: Estado que hace 1 punto de da\xF1o de fuego por turno durante
+    1 d4."

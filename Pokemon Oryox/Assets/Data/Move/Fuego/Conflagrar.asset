@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Conflagrar
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Conflagrar
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 7
+  description: "Una peque\xF1a explosi\xF3n creadaa partir de las quemaduras de un
+    pok\xE9mon. Inflinge 2\r puntos de da\xF1o por cada turno restante de quemaduras
+    del pok\xE9mon."
+  coste: 4PP
+  range: 1-5
+  notes: 70% acierto

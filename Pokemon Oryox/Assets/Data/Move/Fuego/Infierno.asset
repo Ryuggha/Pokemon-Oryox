@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Infierno
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Infierno
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 7
+  description: "El pok\xE9mon altera el ambiente, convirtiendole en un aut\xE9ntico
+    infierno. Inflinge 1\r punto de da\xF1o fuego a todos los pok\xE9mon del campo
+    de batalla cada turno."
+  coste: 3PP activar, 1PP/turno
+  range: 1
+  notes: Este movimiento no se ve afectado por bonus adicionales.

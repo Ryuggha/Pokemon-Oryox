@@ -12,10 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Llama final
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Llama final
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 7
+  description: "Concentrada todo el poder de fuego que posee el pok\xE9mon creando
+    as\xED una espec\rtacular lama que inflinge 1 punto de da\xF1o por cada PP gastado.
+    Probabilidad de\r aplicar quemaduras (30%). La llama brilla con intensidad cegando
+    al enemigo. "
+  coste: 8-20PP
+  range: 1-6
+  notes: "Los pok\xE9mon tienen -2 a esquivar este movimiento. 80% acierto. El pok\xE9mon
+    perder\xE1 su tipo fuego hasta el final del combate."

@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Llamarada
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Llamarada
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 7
+  description: "Una gran llamarada que golpea a todos los objetivos en un cono. Inflinge
+    8 puntos de\r da\xF1o y 5 puntos de da\xF1o adicionales si el pok\xE9mon estaba
+    afectado por quemaduras.\t"
+  coste: 12PP
+  range: 1-4
+  notes: No se puede esquivar

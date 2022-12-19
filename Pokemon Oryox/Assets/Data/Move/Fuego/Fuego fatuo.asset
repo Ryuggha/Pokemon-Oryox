@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Fuego fatuo
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Fuego fatuo
   isPasive: 0
-  type: 0
-  description: 
-  coste: 
-  range: 
-  notes: 
+  type: 7
+  description: "Invoca unas peque\xF1as llamas fantasmales de color azul que queman
+    al objetivo aplicandole quemaduras. El da\xF1o es de tipo fuego y fantasma."
+  coste: 4PP
+  range: 1-4
+  notes: "Quemaduras de 1 d6 de 1 punto de da\xF1o cada una."
