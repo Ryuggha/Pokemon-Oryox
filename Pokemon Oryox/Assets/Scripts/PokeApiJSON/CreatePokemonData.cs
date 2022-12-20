@@ -49,8 +49,8 @@ public class CreatePokemonData : MonoBehaviour
 
             o.id = pokemon.id;
             o.speciesName = pokemon.name;
-            o.type1 = parsePokemonType(pokemon.types[0].type.name);
-            if (pokemon.types.Count > 1) o.type2 = parsePokemonType(pokemon.types[1].type.name);
+            o.type1 = PokemonTypeClass.parsePokemonType(pokemon.types[0].type.name);
+            if (pokemon.types.Count > 1) o.type2 = PokemonTypeClass.parsePokemonType(pokemon.types[1].type.name);
 
             client.DownloadFile(pokemon.sprites.front_default, $"Assets/Resources/PokemonSprites/Sprites/{pokemon.name}.png");
             client.DownloadFile(pokemon.sprites.front_shiny, $"Assets/Resources/PokemonSprites/Shinies/{pokemon.name}.png");
@@ -65,34 +65,6 @@ public class CreatePokemonData : MonoBehaviour
         AssetDatabase.Refresh();
     }
 
-    public static pokemonType parsePokemonType(string rawType)
-    {
-        switch (rawType)
-        {
-            case "steel": return pokemonType.steel;
-            case "water": return pokemonType.water;
-            case "bug": return pokemonType.bug;
-            case "dragon": return pokemonType.dragon;
-            case "electric": return pokemonType.electric;
-            case "ghost": return pokemonType.ghost;
-            case "fire": return pokemonType.fire;
-            case "fairy": return pokemonType.fairy;
-            case "ice": return pokemonType.ice;
-            case "fight": return pokemonType.fight;
-            case "normal": return pokemonType.normal;
-            case "grass": return pokemonType.grass;
-            case "psychic": return pokemonType.psychic;
-            case "rock": return pokemonType.rock;
-            case "dark": return pokemonType.dark;
-            case "ground": return pokemonType.ground;
-            case "poison": return pokemonType.poison;
-            case "flying": return pokemonType.flying;
-            case "light": return pokemonType.light;
-            case "demon": return pokemonType.demon;
-            case "shadow": return pokemonType.shadow;
-            case "cosmic": return pokemonType.cosmic;
-            default: return pokemonType.none;
-        }
-    }
+    
 
 }
