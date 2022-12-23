@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveName: "R\xE1faga de arena"
   isPasive: 0
-  type: 0
+  type: 16
   description: "Crea una r\xE1faga de arena que inflige 1 punto de da\xF1o por cada
     casilla de movimiento que haya recorrido el pok\xE9mon enemigo."
   coste: 1PP 2PE

@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
-  m_Name: Golpe bajo
+  m_Name: Patada baja
   m_EditorClassIdentifier: 
-  moveName: Golpe bajo
+  moveName: Pata baja
   isPasive: 0
   type: 10
   description: "Aturde al pok\xE9mon objetivo 1 turno haci\xE9ndole perder las acciones
