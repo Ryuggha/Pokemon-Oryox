@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveName: Carga pesada
   isPasive: 0
-  type: 0
+  type: 1
   description: "Cargas contra el enemigo y le infliges 4 puntos de da\xF1o f\xEDsico
     +1 por cada carga de cromado que tengas."
   coste: 4PE

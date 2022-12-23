@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveName: Golpe certero
   isPasive: 0
-  type: 0
+  type: 10
   description: "Un ataque certero sin ninguna posibilidad de fallo. Inflige 2 puntos
     de da\xF1o."
   coste: 2PE

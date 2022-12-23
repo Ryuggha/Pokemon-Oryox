@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
   m_Name: Pulimiento
   m_EditorClassIdentifier: 
-  moveName: Pulimiento (pasiva)
-  isPasive: 0
+  moveName: 'Pulimiento '
+  isPasive: 1
   type: 1
   description: "Tu da\xF1o aumenta en +1 por cada carga de Cromado que tengas. "
   coste: 
@@ -21,6 +21,5 @@ MonoBehaviour:
   notes: "Cromado: Cada vez que tu pok\xE9mon gana el estado de \u201Ccromado\u201D
     aumenta su defensa f\xEDsica en +1 permanentemente (m\xE1x 5). Una vez alcanzado
     el m\xE1ximo, el siguiente turno obtiene +2 acciones adicionales, +2 al movimiento
-    y +2 al ataque f\xEDsico, luego se pierden todas las cargas de \u201Ccromado\u201D.\n
-    Refinado: Puedes eliminar una carga de Cromado para dar un bonus adicional a
-    tus habilidades.\r\n"
+    y +2 al ataque f\xEDsico, luego se pierden todas las cargas de \u201Ccromado\u201D.\nRefinado:
+    Puedes eliminar una carga de Cromado para dar un bonus adicional a tus habilidades.\r\n"

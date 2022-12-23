@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveName: Rugido
   isPasive: 0
-  type: 0
+  type: 11
   description: "Ruge fuertemente para asustar al pok\xE9mon rival, si este no supera
     la lucha de voluntades, perder\xE1 su siguiente turno."
   coste: 2PE
