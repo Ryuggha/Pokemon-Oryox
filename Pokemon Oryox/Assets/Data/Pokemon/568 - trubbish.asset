@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a24bcd988ca104dbab12e4f82b8798, type: 3}
+  m_Name: 568 - trubbish
+  m_EditorClassIdentifier: 
+  id: 568
+  speciesName: trubbish
+  type1: 17
+  type2: 0
+  sprite: {fileID: 21300000, guid: c8214912aca221d4d9b324aba7dab08f, type: 3}
+  shiny: {fileID: 21300000, guid: fb126470e465b9545978e284848cdcb7, type: 3}

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a24bcd988ca104dbab12e4f82b8798, type: 3}
+  m_Name: 655 - delphox
+  m_EditorClassIdentifier: 
+  id: 655
+  speciesName: delphox
+  type1: 7
+  type2: 13
+  sprite: {fileID: 21300000, guid: ce9578df8d8e7bf468fe140df6869b55, type: 3}
+  shiny: {fileID: 21300000, guid: 3785d3c2347e4584e99ada39c2cd6b3b, type: 3}

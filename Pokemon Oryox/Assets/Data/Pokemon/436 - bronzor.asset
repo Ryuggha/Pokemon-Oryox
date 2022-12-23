@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a24bcd988ca104dbab12e4f82b8798, type: 3}
+  m_Name: 436 - bronzor
+  m_EditorClassIdentifier: 
+  id: 436
+  speciesName: bronzor
+  type1: 1
+  type2: 13
+  sprite: {fileID: 21300000, guid: 34667af710da99a4cb0ccdcc37333ecf, type: 3}
+  shiny: {fileID: 21300000, guid: 773038bc9ee9b5c4ea878586f66740f0, type: 3}

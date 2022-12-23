@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a24bcd988ca104dbab12e4f82b8798, type: 3}
+  m_Name: 628 - braviary
+  m_EditorClassIdentifier: 
+  id: 628
+  speciesName: braviary
+  type1: 11
+  type2: 18
+  sprite: {fileID: 21300000, guid: 2eb7f8b3688338b4b93c6d71dd8a2d99, type: 3}
+  shiny: {fileID: 21300000, guid: 5be59eb673108e347a11dfa59e71f173, type: 3}

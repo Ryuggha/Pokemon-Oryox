@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a24bcd988ca104dbab12e4f82b8798, type: 3}
+  m_Name: 227 - skarmory
+  m_EditorClassIdentifier: 
+  id: 227
+  speciesName: skarmory
+  type1: 1
+  type2: 18
+  sprite: {fileID: 21300000, guid: 096fab6c2a8e7604fb3c47c53b7031cc, type: 3}
+  shiny: {fileID: 21300000, guid: f625e170e62520e40bc0af31ec3b173a, type: 3}

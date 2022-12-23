@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a24bcd988ca104dbab12e4f82b8798, type: 3}
+  m_Name: 292 - shedinja
+  m_EditorClassIdentifier: 
+  id: 292
+  speciesName: shedinja
+  type1: 3
+  type2: 6
+  sprite: {fileID: 21300000, guid: c36fc496cd7389a49ba00610eb866f66, type: 3}
+  shiny: {fileID: 21300000, guid: 36d9b3c1253236e4e874c861330dd7a3, type: 3}

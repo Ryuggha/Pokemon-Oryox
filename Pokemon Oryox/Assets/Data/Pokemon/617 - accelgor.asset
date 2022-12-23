@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a24bcd988ca104dbab12e4f82b8798, type: 3}
+  m_Name: 617 - accelgor
+  m_EditorClassIdentifier: 
+  id: 617
+  speciesName: accelgor
+  type1: 3
+  type2: 0
+  sprite: {fileID: 21300000, guid: 4b6ce7a80b99705459662851d6b10309, type: 3}
+  shiny: {fileID: 21300000, guid: e9cb461b1a9f17e4cbf874c418e52998, type: 3}

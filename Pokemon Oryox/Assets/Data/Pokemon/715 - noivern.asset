@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a24bcd988ca104dbab12e4f82b8798, type: 3}
+  m_Name: 715 - noivern
+  m_EditorClassIdentifier: 
+  id: 715
+  speciesName: noivern
+  type1: 18
+  type2: 4
+  sprite: {fileID: 21300000, guid: 7e972f5e018f43d438001586d86e4822, type: 3}
+  shiny: {fileID: 21300000, guid: 2a0fca229e91f464bbd3779fc79359b9, type: 3}

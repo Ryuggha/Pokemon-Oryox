@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a24bcd988ca104dbab12e4f82b8798, type: 3}
+  m_Name: 902 - basculegion-male
+  m_EditorClassIdentifier: 
+  id: 902
+  speciesName: basculegion-male
+  type1: 2
+  type2: 6
+  sprite: {fileID: 21300000, guid: c8dd0774b8e797342847e80bc8dc126f, type: 3}
+  shiny: {fileID: 21300000, guid: 1f56951d8a07aa848a22116573df3c57, type: 3}

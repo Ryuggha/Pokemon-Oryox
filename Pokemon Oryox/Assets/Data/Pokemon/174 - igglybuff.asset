@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a24bcd988ca104dbab12e4f82b8798, type: 3}
+  m_Name: 174 - igglybuff
+  m_EditorClassIdentifier: 
+  id: 174
+  speciesName: igglybuff
+  type1: 11
+  type2: 8
+  sprite: {fileID: 21300000, guid: 4e4ecbce43d375248ab27b76d534fe6c, type: 3}
+  shiny: {fileID: 21300000, guid: cbd3b1507e58d054882b924cef7d2ef0, type: 3}

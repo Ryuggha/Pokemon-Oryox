@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a24bcd988ca104dbab12e4f82b8798, type: 3}
+  m_Name: 662 - fletchinder
+  m_EditorClassIdentifier: 
+  id: 662
+  speciesName: fletchinder
+  type1: 7
+  type2: 18
+  sprite: {fileID: 21300000, guid: 2703e1fd0c86f3642a7fa862de012145, type: 3}
+  shiny: {fileID: 21300000, guid: 1729c7750f46e7544b87dba14db5bf4d, type: 3}

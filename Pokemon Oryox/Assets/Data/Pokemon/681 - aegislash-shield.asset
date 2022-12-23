@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a24bcd988ca104dbab12e4f82b8798, type: 3}
+  m_Name: 681 - aegislash-shield
+  m_EditorClassIdentifier: 
+  id: 681
+  speciesName: aegislash-shield
+  type1: 1
+  type2: 6
+  sprite: {fileID: 21300000, guid: 67b04c75ec99187448e08a9650bf2cdc, type: 3}
+  shiny: {fileID: 21300000, guid: 1c77a671f7de6c5429500a78e011f52d, type: 3}

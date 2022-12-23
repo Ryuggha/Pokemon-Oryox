@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a24bcd988ca104dbab12e4f82b8798, type: 3}
+  m_Name: 571 - zoroark
+  m_EditorClassIdentifier: 
+  id: 571
+  speciesName: zoroark
+  type1: 15
+  type2: 0
+  sprite: {fileID: 21300000, guid: a94fbcfb6e1d9194b9dbf17a4f77382c, type: 3}
+  shiny: {fileID: 21300000, guid: abe5c532fa8a49b4285e158a25ce8c8e, type: 3}

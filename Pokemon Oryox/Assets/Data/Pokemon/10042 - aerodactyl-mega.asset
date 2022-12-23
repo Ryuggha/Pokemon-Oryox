@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a24bcd988ca104dbab12e4f82b8798, type: 3}
+  m_Name: 10042 - aerodactyl-mega
+  m_EditorClassIdentifier: 
+  id: 10042
+  speciesName: aerodactyl-mega
+  type1: 14
+  type2: 18
+  sprite: {fileID: 21300000, guid: 9445ad3d156a3eb46b8f1d9506f5c8e1, type: 3}
+  shiny: {fileID: 21300000, guid: 66bfd81cf7a2917489c566ea83172643, type: 3}

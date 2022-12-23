@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a24bcd988ca104dbab12e4f82b8798, type: 3}
+  m_Name: 10175 - linoone-galar
+  m_EditorClassIdentifier: 
+  id: 10175
+  speciesName: linoone-galar
+  type1: 15
+  type2: 11
+  sprite: {fileID: 21300000, guid: 85c6e8852d161504fb918f1d19c40dec, type: 3}
+  shiny: {fileID: 21300000, guid: 125d9ad62f7eb4f4988e2e391a95fdd8, type: 3}

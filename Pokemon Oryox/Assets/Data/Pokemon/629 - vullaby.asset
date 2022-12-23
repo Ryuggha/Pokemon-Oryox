@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a24bcd988ca104dbab12e4f82b8798, type: 3}
+  m_Name: 629 - vullaby
+  m_EditorClassIdentifier: 
+  id: 629
+  speciesName: vullaby
+  type1: 15
+  type2: 18
+  sprite: {fileID: 21300000, guid: c657cff62d2c1de459bf2ef9765916b2, type: 3}
+  shiny: {fileID: 21300000, guid: 937f9b1ca2c39e8449ab9229e0a4bc70, type: 3}

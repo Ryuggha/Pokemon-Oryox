@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a24bcd988ca104dbab12e4f82b8798, type: 3}
+  m_Name: 714 - noibat
+  m_EditorClassIdentifier: 
+  id: 714
+  speciesName: noibat
+  type1: 18
+  type2: 4
+  sprite: {fileID: 21300000, guid: 4655153ef6efb9444aa33afcbb9b8020, type: 3}
+  shiny: {fileID: 21300000, guid: 9c2d9498d73cf344ea3178a1fa8282d2, type: 3}
