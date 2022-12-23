@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
+  m_Name: Veneno agotante
+  m_EditorClassIdentifier: 
+  moveName: Veneno agotante
+  isPasive: 0
+  type: 17
+  description: Veneno que agota poco a poco la energia del objetivo envenenado. Quita
+    1 punto de energia cada vez que recibe un ataque directo y reduce la velocidad
+    de movimiento en -1. Dura 2 turnos
+  coste: 3PP
+  range: 1-4
+  notes: 80% acierto

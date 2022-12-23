@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dff80451c6c60d84794c53f3c96e5f22, type: 3}
+  m_Name: Carga toxica
+  m_EditorClassIdentifier: 
+  moveName: "Carga t\xF3xica"
+  isPasive: 0
+  type: 17
+  description: "Dispara una baba cargada de veneno t\xF3xico al objetivo. Inflinge
+    2 puntos de da\xF1o objetivo, y aumenta su da\xF1o en +1 si esta envenenado o
+    +3 si esta gravemente envenenado."
+  coste: 4PP
+  range: 2-5
+  notes: 
