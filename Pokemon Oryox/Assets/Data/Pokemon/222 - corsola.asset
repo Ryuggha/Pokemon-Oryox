@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a24bcd988ca104dbab12e4f82b8798, type: 3}
+  m_Name: 222 - corsola
+  m_EditorClassIdentifier: 
+  id: 222
+  speciesName: corsola
+  type1: 2
+  type2: 14
+  sprite: {fileID: 21300000, guid: 7243e6aeab020f74c86d73d68240aab7, type: 3}
+  shiny: {fileID: 21300000, guid: 2793557b0e65b1b478d49a323a63e109, type: 3}

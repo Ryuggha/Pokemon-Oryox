@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a24bcd988ca104dbab12e4f82b8798, type: 3}
+  m_Name: 760 - bewear
+  m_EditorClassIdentifier: 
+  id: 760
+  speciesName: bewear
+  type1: 11
+  type2: 0
+  sprite: {fileID: 21300000, guid: bf3f6e1639760a640aeb3fa4f2d45e25, type: 3}
+  shiny: {fileID: 21300000, guid: eb7fd092106a3924dbb306efd53fc70f, type: 3}

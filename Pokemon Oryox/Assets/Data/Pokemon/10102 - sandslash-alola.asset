@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a24bcd988ca104dbab12e4f82b8798, type: 3}
+  m_Name: 10102 - sandslash-alola
+  m_EditorClassIdentifier: 
+  id: 10102
+  speciesName: sandslash-alola
+  type1: 9
+  type2: 1
+  sprite: {fileID: 21300000, guid: 2662b43e7af8d6f4899b496b3ae6790d, type: 3}
+  shiny: {fileID: 21300000, guid: 0fd8ff0b02230c14ba2d68b2153bb8a4, type: 3}

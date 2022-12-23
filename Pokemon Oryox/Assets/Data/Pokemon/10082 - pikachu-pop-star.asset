@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a24bcd988ca104dbab12e4f82b8798, type: 3}
+  m_Name: 10082 - pikachu-pop-star
+  m_EditorClassIdentifier: 
+  id: 10082
+  speciesName: pikachu-pop-star
+  type1: 5
+  type2: 0
+  sprite: {fileID: 21300000, guid: 494de521c0a49fe46ad55f358a01e45d, type: 3}
+  shiny: {fileID: 21300000, guid: bb31dfe6b91531a4abaf94924c54a40d, type: 3}

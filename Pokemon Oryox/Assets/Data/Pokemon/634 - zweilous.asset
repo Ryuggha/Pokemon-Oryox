@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a24bcd988ca104dbab12e4f82b8798, type: 3}
+  m_Name: 634 - zweilous
+  m_EditorClassIdentifier: 
+  id: 634
+  speciesName: zweilous
+  type1: 15
+  type2: 4
+  sprite: {fileID: 21300000, guid: fc6651f7592a174418ab155b24c480dd, type: 3}
+  shiny: {fileID: 21300000, guid: 2883c7936bc8ca6499e659b03a34ce0d, type: 3}

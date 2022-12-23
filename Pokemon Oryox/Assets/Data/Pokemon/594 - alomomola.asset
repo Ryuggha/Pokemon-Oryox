@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a24bcd988ca104dbab12e4f82b8798, type: 3}
+  m_Name: 594 - alomomola
+  m_EditorClassIdentifier: 
+  id: 594
+  speciesName: alomomola
+  type1: 2
+  type2: 0
+  sprite: {fileID: 21300000, guid: 71f495a077a23da418daa13c2edc3350, type: 3}
+  shiny: {fileID: 21300000, guid: 33d6198f7b0d48e43aee51adb242c92d, type: 3}

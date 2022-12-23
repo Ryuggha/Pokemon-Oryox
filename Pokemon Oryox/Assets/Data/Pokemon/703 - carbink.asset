@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a24bcd988ca104dbab12e4f82b8798, type: 3}
+  m_Name: 703 - carbink
+  m_EditorClassIdentifier: 
+  id: 703
+  speciesName: carbink
+  type1: 14
+  type2: 8
+  sprite: {fileID: 21300000, guid: 624da714489b65e428cc18fa6484975a, type: 3}
+  shiny: {fileID: 21300000, guid: d0a1c5521ae2e014da6077ade7419a9c, type: 3}

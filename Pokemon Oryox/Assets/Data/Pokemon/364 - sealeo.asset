@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a24bcd988ca104dbab12e4f82b8798, type: 3}
+  m_Name: 364 - sealeo
+  m_EditorClassIdentifier: 
+  id: 364
+  speciesName: sealeo
+  type1: 9
+  type2: 2
+  sprite: {fileID: 21300000, guid: bf5a71358020b7e4e9edc1669f9c0552, type: 3}
+  shiny: {fileID: 21300000, guid: 950fd85b835f8ca4699787c55d960cf9, type: 3}

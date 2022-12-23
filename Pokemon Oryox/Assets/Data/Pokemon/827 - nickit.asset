@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a24bcd988ca104dbab12e4f82b8798, type: 3}
+  m_Name: 827 - nickit
+  m_EditorClassIdentifier: 
+  id: 827
+  speciesName: nickit
+  type1: 15
+  type2: 0
+  sprite: {fileID: 21300000, guid: b3fa7d7a47106d946b248876e2709bb7, type: 3}
+  shiny: {fileID: 21300000, guid: 297457d264cc6154aa12c82e12ad8f03, type: 3}

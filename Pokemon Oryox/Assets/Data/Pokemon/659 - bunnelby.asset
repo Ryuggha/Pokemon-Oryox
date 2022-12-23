@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a24bcd988ca104dbab12e4f82b8798, type: 3}
+  m_Name: 659 - bunnelby
+  m_EditorClassIdentifier: 
+  id: 659
+  speciesName: bunnelby
+  type1: 11
+  type2: 0
+  sprite: {fileID: 21300000, guid: 104826d50de65204daf1ab044640877e, type: 3}
+  shiny: {fileID: 21300000, guid: 6ce3a29d1e5f6444aa48d6f161668e39, type: 3}

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a24bcd988ca104dbab12e4f82b8798, type: 3}
+  m_Name: 701 - hawlucha
+  m_EditorClassIdentifier: 
+  id: 701
+  speciesName: hawlucha
+  type1: 0
+  type2: 18
+  sprite: {fileID: 21300000, guid: 889daa781b2068843b75f378f3f1a3f3, type: 3}
+  shiny: {fileID: 21300000, guid: 6ed15875d23dcec4f8abc38b64b4b8f9, type: 3}

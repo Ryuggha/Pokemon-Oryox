@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a24bcd988ca104dbab12e4f82b8798, type: 3}
+  m_Name: 10194 - calyrex-shadow
+  m_EditorClassIdentifier: 
+  id: 10194
+  speciesName: calyrex-shadow
+  type1: 13
+  type2: 6
+  sprite: {fileID: 21300000, guid: 8c8e9d61e0b163c49b0be87aca90af56, type: 3}
+  shiny: {fileID: 21300000, guid: d1e02a21a5e1481458f9d6b961ab9965, type: 3}

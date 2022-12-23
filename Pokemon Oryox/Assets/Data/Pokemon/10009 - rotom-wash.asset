@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a24bcd988ca104dbab12e4f82b8798, type: 3}
+  m_Name: 10009 - rotom-wash
+  m_EditorClassIdentifier: 
+  id: 10009
+  speciesName: rotom-wash
+  type1: 5
+  type2: 2
+  sprite: {fileID: 21300000, guid: 1a4bfe446b04bd64e984292841bb9d23, type: 3}
+  shiny: {fileID: 21300000, guid: 86abd7a435495a5498b60133a7117677, type: 3}

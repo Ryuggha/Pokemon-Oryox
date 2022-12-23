@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a24bcd988ca104dbab12e4f82b8798, type: 3}
+  m_Name: 10202 - gengar-gmax
+  m_EditorClassIdentifier: 
+  id: 10202
+  speciesName: gengar-gmax
+  type1: 6
+  type2: 17
+  sprite: {fileID: 21300000, guid: eb1c1545a169a1c4bbd2dddd9a6b6888, type: 3}
+  shiny: {fileID: 21300000, guid: 3aa5e7132e15c5840a69ca1f1ea469eb, type: 3}

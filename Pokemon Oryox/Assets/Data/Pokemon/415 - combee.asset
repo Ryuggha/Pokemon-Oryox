@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a24bcd988ca104dbab12e4f82b8798, type: 3}
+  m_Name: 415 - combee
+  m_EditorClassIdentifier: 
+  id: 415
+  speciesName: combee
+  type1: 3
+  type2: 18
+  sprite: {fileID: 21300000, guid: d439569a93fd59441b549541380ac851, type: 3}
+  shiny: {fileID: 21300000, guid: bf9892ff48456f14a85b43f7ef17ed9a, type: 3}

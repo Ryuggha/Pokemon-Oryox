@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a24bcd988ca104dbab12e4f82b8798, type: 3}
+  m_Name: 10166 - farfetchd-galar
+  m_EditorClassIdentifier: 
+  id: 10166
+  speciesName: farfetchd-galar
+  type1: 0
+  type2: 0
+  sprite: {fileID: 21300000, guid: 7419c7e4e3662af43b4944afcf2ff30e, type: 3}
+  shiny: {fileID: 21300000, guid: 47ed354595eb30f40958bd41d0b25128, type: 3}

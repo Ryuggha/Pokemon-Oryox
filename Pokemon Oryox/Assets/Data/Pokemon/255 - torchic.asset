@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a24bcd988ca104dbab12e4f82b8798, type: 3}
+  m_Name: 255 - torchic
+  m_EditorClassIdentifier: 
+  id: 255
+  speciesName: torchic
+  type1: 7
+  type2: 0
+  sprite: {fileID: 21300000, guid: 8ea9178080910b0469a62a1ef8316e32, type: 3}
+  shiny: {fileID: 21300000, guid: 8cf9d6e920d2b8843b52e5e02087592e, type: 3}

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a24bcd988ca104dbab12e4f82b8798, type: 3}
+  m_Name: 10054 - medicham-mega
+  m_EditorClassIdentifier: 
+  id: 10054
+  speciesName: medicham-mega
+  type1: 0
+  type2: 13
+  sprite: {fileID: 21300000, guid: f3945be1fcfd5224da7fb4d6e6f3eb35, type: 3}
+  shiny: {fileID: 21300000, guid: 1cdadb5a283595f429226c9d000c3ca4, type: 3}

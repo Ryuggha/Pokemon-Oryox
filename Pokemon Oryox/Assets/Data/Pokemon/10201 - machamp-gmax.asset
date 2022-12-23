@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a24bcd988ca104dbab12e4f82b8798, type: 3}
+  m_Name: 10201 - machamp-gmax
+  m_EditorClassIdentifier: 
+  id: 10201
+  speciesName: machamp-gmax
+  type1: 0
+  type2: 0
+  sprite: {fileID: 21300000, guid: c2c06aabf3297f34692b8470068c2710, type: 3}
+  shiny: {fileID: 21300000, guid: 4a77871d66ee045448478bcd0a05ef15, type: 3}

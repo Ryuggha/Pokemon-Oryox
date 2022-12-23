@@ -5,6 +5,9 @@ using UnityEngine.UI;
 
 public class MainMenu : MonoBehaviour
 {
+    [SerializeField] private PokemonList pokemonList;
+
+
 
     [SerializeField] GameObject generateMenu;
     [SerializeField] GameObject partyMenu;

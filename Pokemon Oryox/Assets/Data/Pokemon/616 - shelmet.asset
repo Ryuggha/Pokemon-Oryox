@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a24bcd988ca104dbab12e4f82b8798, type: 3}
+  m_Name: 616 - shelmet
+  m_EditorClassIdentifier: 
+  id: 616
+  speciesName: shelmet
+  type1: 3
+  type2: 0
+  sprite: {fileID: 21300000, guid: ad8a7653fc9d1b0449518c77b9ab002b, type: 3}
+  shiny: {fileID: 21300000, guid: e246e9b00c344ef439044173acc8a5e8, type: 3}

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a24bcd988ca104dbab12e4f82b8798, type: 3}
+  m_Name: 289 - slaking
+  m_EditorClassIdentifier: 
+  id: 289
+  speciesName: slaking
+  type1: 11
+  type2: 0
+  sprite: {fileID: 21300000, guid: 02d88942a0cb97a41a41dc7e9ec2a7a3, type: 3}
+  shiny: {fileID: 21300000, guid: 2e8a586c524226a4ea7ae4e2757ed9bc, type: 3}

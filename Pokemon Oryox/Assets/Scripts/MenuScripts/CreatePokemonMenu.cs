@@ -12,11 +12,10 @@ public class CreatePokemonMenu : MonoBehaviour
 
     int activeStep;
 
-    [Header("Data")]
-    public List<PokemonApiData> pokeData;
-    public List<NatureData> natureData;
-    public List<ConstitutionData> constitutionData;
-    public List<MoveData> moveRawData;
+    public List<PokemonApiData> pokeData { get; private set; }
+    public List<NatureData> natureData { get; private set; }
+    public List<ConstitutionData> constitutionData { get; private set; }
+    public List<MoveData> moveRawData { get; private set; }
 
     public Dictionary<int, List<MoveData>> activeMoveData;
     public Dictionary<int, List<MoveData>> pasiveData;
@@ -67,6 +66,12 @@ public class CreatePokemonMenu : MonoBehaviour
         newPokemon = null;
         numberOfPassives = 0;
         activeStep = 0;
+
+        pokeData = Data.instance.pokeData;
+        natureData = Data.instance.natureData;
+        constitutionData = Data.instance.constitutionData;
+        moveRawData = Data.instance.moveRawData;
+
         adminSteps();
     }
 
