@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Agallas
   m_EditorClassIdentifier: 
   moveName: Agallas
-  isPasive: 0
+  isPasive: 1
   type: 11
   description: "+1 de ataque f\xEDsico y especial si sufre un problema de estado. "
   coste: 
