@@ -15,6 +15,6 @@ MonoBehaviour:
   id: 453
   speciesName: croagunk
   type1: 17
-  type2: 0
+  type2: 10
   sprite: {fileID: 21300000, guid: 8cfdd95ab3192d348b9f87747de53797, type: 3}
   shiny: {fileID: 21300000, guid: 65d692e9a3f4a124196c49f300b6ed98, type: 3}

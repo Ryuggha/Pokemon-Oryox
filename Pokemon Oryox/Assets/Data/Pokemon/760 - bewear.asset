@@ -15,6 +15,6 @@ MonoBehaviour:
   id: 760
   speciesName: bewear
   type1: 11
-  type2: 0
+  type2: 10
   sprite: {fileID: 21300000, guid: bf3f6e1639760a640aeb3fa4f2d45e25, type: 3}
   shiny: {fileID: 21300000, guid: eb7fd092106a3924dbb306efd53fc70f, type: 3}

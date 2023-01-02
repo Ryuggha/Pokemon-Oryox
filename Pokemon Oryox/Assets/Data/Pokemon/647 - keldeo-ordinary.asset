@@ -15,6 +15,6 @@ MonoBehaviour:
   id: 647
   speciesName: keldeo-ordinary
   type1: 2
-  type2: 0
+  type2: 10
   sprite: {fileID: 21300000, guid: 996b0c1946928e043b9813c23bc9e997, type: 3}
   shiny: {fileID: 21300000, guid: 4996d28cad73a4940916a449390cf6e6, type: 3}

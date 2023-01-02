@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 57
   speciesName: primeape
-  type1: 0
+  type1: 10
   type2: 0
   sprite: {fileID: 21300000, guid: b370746ef568ae64081e6a068407371e, type: 3}
   shiny: {fileID: 21300000, guid: 6f22a4314d459ca4b971a4bc1a102df6, type: 3}

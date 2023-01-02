@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 448
   speciesName: lucario
-  type1: 0
+  type1: 10
   type2: 1
   sprite: {fileID: 21300000, guid: c13b9c43f8e6d684da98e5e60daf376b, type: 3}
   shiny: {fileID: 21300000, guid: ba252983f18911e4c87890254a3292c4, type: 3}

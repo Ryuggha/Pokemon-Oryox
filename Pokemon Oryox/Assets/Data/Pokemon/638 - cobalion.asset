@@ -15,6 +15,6 @@ MonoBehaviour:
   id: 638
   speciesName: cobalion
   type1: 1
-  type2: 0
+  type2: 10
   sprite: {fileID: 21300000, guid: e86eaf1562db70943a71fb5b5ac82e74, type: 3}
   shiny: {fileID: 21300000, guid: 70dabca9188789c41a691a8c1a87ffb5, type: 3}

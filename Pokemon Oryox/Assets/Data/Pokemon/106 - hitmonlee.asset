@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 106
   speciesName: hitmonlee
-  type1: 0
+  type1: 10
   type2: 0
   sprite: {fileID: 21300000, guid: e89139ca801cc7c43b2d92718270b460, type: 3}
   shiny: {fileID: 21300000, guid: 746a8481a6e14ba4093005ec5743066e, type: 3}

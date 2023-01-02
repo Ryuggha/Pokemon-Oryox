@@ -15,6 +15,6 @@ MonoBehaviour:
   id: 560
   speciesName: scrafty
   type1: 15
-  type2: 0
+  type2: 10
   sprite: {fileID: 21300000, guid: d5e7581d77377154d8413977aefc7b0d, type: 3}
   shiny: {fileID: 21300000, guid: 1ecd6209d1d894e42a9c08c6f8a65145, type: 3}

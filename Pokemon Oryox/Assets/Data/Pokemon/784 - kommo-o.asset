@@ -15,6 +15,6 @@ MonoBehaviour:
   id: 784
   speciesName: kommo-o
   type1: 4
-  type2: 0
+  type2: 10
   sprite: {fileID: 21300000, guid: 1e81934b1a61a2c46a3fca56a0ae3398, type: 3}
   shiny: {fileID: 21300000, guid: 1757f367c4344cd4d962650643226d08, type: 3}

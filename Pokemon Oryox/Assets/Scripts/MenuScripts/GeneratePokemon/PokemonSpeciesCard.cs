@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class PokemonSpeciesCard : MonoBehaviour
 {
     private PokemonApiData pokeData;
-    private SpeciesSelectViewPort controller;
+    private IViewPortController controller;
 
     public Image buttonSprite;
     public Image pokemonSprite;
@@ -14,7 +14,7 @@ public class PokemonSpeciesCard : MonoBehaviour
     [SerializeField] Sprite PinkSprite;
     [SerializeField] Sprite OrangeSprite;
 
-    public void Initialize(PokemonApiData pokeData, SpeciesSelectViewPort controller)
+    public void Initialize(PokemonApiData pokeData, IViewPortController controller)
     {
         this.controller = controller;
 

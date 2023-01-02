@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 67
   speciesName: machoke
-  type1: 0
+  type1: 10
   type2: 0
   sprite: {fileID: 21300000, guid: ee7df420913fc704e8db51ce1d5b2df0, type: 3}
   shiny: {fileID: 21300000, guid: ce2d09244294e1c45a3be30e1793ef6e, type: 3}

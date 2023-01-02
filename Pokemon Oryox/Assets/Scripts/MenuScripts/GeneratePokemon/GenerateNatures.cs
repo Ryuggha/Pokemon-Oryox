@@ -99,6 +99,6 @@ public class GenerateNatures : MonoBehaviour
     {
         NatureData retNature = natureList[Random.Range(0, natureList.Count)];
 
-        creationMenu.step6(retNature, retNature.possiblePositive[Random.Range(0, retNature.possiblePositive.Length)], retNature.possibleNegative[Random.Range(0, retNature.possibleNegative.Length)]);
+        creationMenu.step6(retNature, retNature.possiblePositive.Length == 0? "" : retNature.possiblePositive[Random.Range(0, retNature.possiblePositive.Length)], retNature.possibleNegative.Length == 0 ? "" : retNature.possibleNegative[Random.Range(0, retNature.possibleNegative.Length)]);
     }
 }

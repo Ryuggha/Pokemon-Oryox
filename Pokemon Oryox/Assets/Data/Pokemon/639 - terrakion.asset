@@ -15,6 +15,6 @@ MonoBehaviour:
   id: 639
   speciesName: terrakion
   type1: 14
-  type2: 0
+  type2: 10
   sprite: {fileID: 21300000, guid: 02a4145cfef07584cbe9f03a4ec08c6d, type: 3}
   shiny: {fileID: 21300000, guid: af7867e03c3fd8b43a2a9efccddde892, type: 3}

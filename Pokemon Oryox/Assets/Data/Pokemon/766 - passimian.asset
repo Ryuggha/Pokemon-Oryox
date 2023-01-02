@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 766
   speciesName: passimian
-  type1: 0
+  type1: 10
   type2: 0
   sprite: {fileID: 21300000, guid: 8e59dd13cb355644d985601177121f26, type: 3}
   shiny: {fileID: 21300000, guid: 94ed0aa558dde3843b9c0d4c5d7e92e6, type: 3}

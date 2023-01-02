@@ -15,6 +15,6 @@ MonoBehaviour:
   id: 10018
   speciesName: meloetta-pirouette
   type1: 11
-  type2: 0
+  type2: 10
   sprite: {fileID: 21300000, guid: 4be1fd343cc6d1a4c95086ab5d8896e7, type: 3}
   shiny: {fileID: 21300000, guid: 66cb8b4da21975f438b6291cc3fa5134, type: 3}

@@ -18,6 +18,7 @@ public class GenerateFinalSteps : MonoBehaviour
     public Sprite buttonSelected;
     public Button shinyButton;
     public Button tribalButton;
+    public Image tribalImage;
 
     [Header("Attributes")]
     private PokemonObject newPokemon;
@@ -75,12 +76,15 @@ public class GenerateFinalSteps : MonoBehaviour
             tribalButton.image.sprite = buttonSelected;
             isTribal = true;
         }
+        setPokemonSprite();
     }
 
     public void setPokemonSprite()
     {
         if (isShiny) spriteImage.sprite = newPokemon.pokemonData.shiny;
         else spriteImage.sprite = newPokemon.pokemonData.sprite;
+        if (isTribal) tribalImage.gameObject.SetActive(true);
+        else tribalImage.gameObject.SetActive(false);
     }
 
     public void onShinyOptionsSelectClick()
@@ -96,16 +100,16 @@ public class GenerateFinalSteps : MonoBehaviour
         createPokemonButton.interactable = true;
 
         isShiny = Random.Range(0, 20) == 0;
-        setPokemonSprite();
 
         isTribal = Random.Range(0, 100) == 0;
+        setPokemonSprite();
     }
 
     public void onCreatePokemonClick()
     {
         newPokemon.isShiny = isShiny;
         newPokemon.isTribal = isTribal;
-        newPokemon.nickname = nicknameInput.text;
+        newPokemon.nickname = (nicknameInput.text.ToUpper() == newPokemon.pokemonData.speciesName.ToUpper()) ? "" : nicknameInput.text;
         creationMenu.finish(newPokemon);
     }
 }

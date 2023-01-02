@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 10226
   speciesName: urshifu-single-strike-gmax
-  type1: 0
+  type1: 10
   type2: 15
   sprite: {fileID: 21300000, guid: e143e8cd6d6e876499ef7a121a98c175, type: 3}
   shiny: {fileID: 21300000, guid: 64c8f3a33d3ebca428fe8234ae5d4770, type: 3}

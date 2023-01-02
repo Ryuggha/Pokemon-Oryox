@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 903
   speciesName: sneasler
-  type1: 0
+  type1: 10
   type2: 17
   sprite: {fileID: 21300000, guid: 449568be27ac1c644b58935624108c4a, type: 3}
   shiny: {fileID: 21300000, guid: e140efdfbe4846442b23e5e1667caee8, type: 3}

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 674
   speciesName: pancham
-  type1: 0
+  type1: 10
   type2: 0
   sprite: {fileID: 21300000, guid: dfed6fb73b8e72a42aa58c67ee53aa46, type: 3}
   shiny: {fileID: 21300000, guid: 2be3f7ed36a8aee4eaa583af920a034a, type: 3}

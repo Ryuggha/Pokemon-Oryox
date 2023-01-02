@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 10166
   speciesName: farfetchd-galar
-  type1: 0
+  type1: 10
   type2: 0
   sprite: {fileID: 21300000, guid: 7419c7e4e3662af43b4944afcf2ff30e, type: 3}
   shiny: {fileID: 21300000, guid: 47ed354595eb30f40958bd41d0b25128, type: 3}

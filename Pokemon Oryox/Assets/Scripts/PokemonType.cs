@@ -10,7 +10,7 @@ public enum pokemonType
     fire,
     fairy,
     ice,
-    fight,
+    fighting,
     normal,
     grass,
     psychic,
@@ -39,7 +39,7 @@ public static class PokemonTypeClass{
             case "fire": return pokemonType.fire;
             case "fairy": return pokemonType.fairy;
             case "ice": return pokemonType.ice;
-            case "fight": return pokemonType.fight;
+            case "fighting": return pokemonType.fighting;
             case "normal": return pokemonType.normal;
             case "grass": return pokemonType.grass;
             case "psychic": return pokemonType.psychic;
@@ -69,7 +69,7 @@ public static class PokemonTypeClass{
             case "fire": return "fuego";
             case "fairy": return "hada";
             case "ice": return "hielo";
-            case "fight": return "lucha";
+            case "fighting": return "lucha";
             case "normal": return "normal";
             case "grass": return "planta";
             case "psychic": return "psíquico";
@@ -99,7 +99,7 @@ public static class PokemonTypeClass{
             case "fuego": return "fire";
             case "hada": return "fairy";
             case "hielo": return "ice";
-            case "lucha": return "fight";
+            case "lucha": return "fighting";
             case "normal": return "normal";
             case "planta": return "grass";
             case "psíquico": return "psychic";
@@ -129,7 +129,7 @@ public static class PokemonTypeClass{
             case pokemonType.fire: return 6;
             case pokemonType.fairy: return 7;
             case pokemonType.ice: return 8;
-            case pokemonType.fight: return 9;
+            case pokemonType.fighting: return 9;
             case pokemonType.normal: return 10;
             case pokemonType.grass: return 11;
             case pokemonType.psychic: return 12;
@@ -159,7 +159,7 @@ public static class PokemonTypeClass{
             case 6: return pokemonType.fire;
             case 7: return pokemonType.fairy;
             case 8: return pokemonType.ice;
-            case 9: return pokemonType.fight;
+            case 9: return pokemonType.fighting;
             case 10: return pokemonType.normal;
             case 11: return pokemonType.grass;
             case 12: return pokemonType.psychic;

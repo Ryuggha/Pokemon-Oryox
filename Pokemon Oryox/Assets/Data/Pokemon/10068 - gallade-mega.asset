@@ -15,6 +15,6 @@ MonoBehaviour:
   id: 10068
   speciesName: gallade-mega
   type1: 13
-  type2: 0
+  type2: 10
   sprite: {fileID: 21300000, guid: d38e8fe551e8ed64d8a82e5557904ca2, type: 3}
   shiny: {fileID: 21300000, guid: 16e7cce7c103ddc40bc7aa4b9deba36a, type: 3}

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 10191
   speciesName: urshifu-rapid-strike
-  type1: 0
+  type1: 10
   type2: 2
   sprite: {fileID: 21300000, guid: 87bd58644489679419a256402c741819, type: 3}
   shiny: {fileID: 21300000, guid: 332c2a16dec90c04d8bf0309da6b0386, type: 3}

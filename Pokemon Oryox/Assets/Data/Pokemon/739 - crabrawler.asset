@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 739
   speciesName: crabrawler
-  type1: 0
+  type1: 10
   type2: 0
   sprite: {fileID: 21300000, guid: d086b875ec9990d4b958a536f35682ff, type: 3}
   shiny: {fileID: 21300000, guid: 8791987e21a6b014fa0ab7812f405701, type: 3}

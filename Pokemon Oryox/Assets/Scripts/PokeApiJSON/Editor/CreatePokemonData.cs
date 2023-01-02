@@ -19,16 +19,8 @@ public class CreatePokemonData : MonoBehaviour
     public void createPokemonData()
     {
         WebClient client = new WebClient();
-        if (desiredDepth > 0) {
-            List<PokeApiPokemonJSON> pokemonList = recursivePokemonData(client, "https://pokeapi.co/api/v2/pokemon/", 0);
-            createPokemonObjectData(pokemonList, client);
-        }
-
-        else
-        {
-            string pokeJson = client.DownloadString("https://pokeapi.co/api/v2/pokemon/lurantis-totem");
-            Debug.Log(JsonConvert.DeserializeObject<PokeApiPokemonJSON>(pokeJson).species);
-        }
+        List<PokeApiPokemonJSON> pokemonList = recursivePokemonData(client, "https://pokeapi.co/api/v2/pokemon/", 0);
+        createPokemonObjectData(pokemonList, client);
         
     }
 

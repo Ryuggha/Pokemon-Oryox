@@ -11,6 +11,7 @@ public class PokemonObject
     public pokemonType type2;
 
     public List<MoveData> moves;
+    public List<MoveData> equipedMoves;
     public List<MoveData> pasives;
 
     public NatureData nature;
@@ -24,6 +25,9 @@ public class PokemonObject
 
     public PokemonObject(PokemonApiData pokemonApiData)
     {
+        moves = new List<MoveData>();
+        equipedMoves = new List<MoveData>();
+        pasives = new List<MoveData>();
         this.pokemonData = pokemonApiData;
     }
 
@@ -35,5 +39,11 @@ public class PokemonObject
             return char.ToUpper(str[0]) + "";
         else
             return char.ToUpper(str[0]) + str.Substring(1);
+    }
+
+    public string getName()
+    {
+        if (nickname == "") return PokemonObject.toUpperString(pokemonData.speciesName);
+        return nickname;
     }
 }

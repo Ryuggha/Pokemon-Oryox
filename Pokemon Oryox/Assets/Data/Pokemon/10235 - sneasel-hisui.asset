@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 10235
   speciesName: sneasel-hisui
-  type1: 0
+  type1: 10
   type2: 17
   sprite: {fileID: 21300000, guid: 218f9e6602e327e46ada4a0faed1edfa, type: 3}
   shiny: {fileID: 21300000, guid: fe6ba7c27c3f8114c8d2692fea2ecd4b, type: 3}

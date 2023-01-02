@@ -7,7 +7,7 @@ using TMPro;
 public class PokemonMoveCard : MonoBehaviour
 {
     private MoveData moveData;
-    private GenerateMoves controller;
+    private IMoveGeneratorEditor controller;
 
     public Image buttonSprite;
     public TMP_Text nameField;
@@ -16,7 +16,7 @@ public class PokemonMoveCard : MonoBehaviour
     [SerializeField] Sprite selectedColor;
     [SerializeField] Sprite showingColor;
 
-    public void Initialize(MoveData moveData, GenerateMoves controller)
+    public void Initialize(MoveData moveData, IMoveGeneratorEditor controller)
     {
         this.moveData = moveData;
         this.controller = controller;

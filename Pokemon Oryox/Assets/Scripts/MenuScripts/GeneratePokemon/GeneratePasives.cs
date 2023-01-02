@@ -107,7 +107,7 @@ public class GeneratePasives : MonoBehaviour
     public void showDescription(PokemonPasiveCard pasive)
     {
         if (pasive == null) descriptionField.text = "";
-        else descriptionField.text = pasive.getMoveData().description;
+        else descriptionField.text = pasive.getMoveData().description.Replace("\r", "");
     }
 
     public void onSelectPasiveClick()

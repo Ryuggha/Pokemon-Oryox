@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 10201
   speciesName: machamp-gmax
-  type1: 0
+  type1: 10
   type2: 0
   sprite: {fileID: 21300000, guid: c2c06aabf3297f34692b8470068c2710, type: 3}
   shiny: {fileID: 21300000, guid: 4a77871d66ee045448478bcd0a05ef15, type: 3}

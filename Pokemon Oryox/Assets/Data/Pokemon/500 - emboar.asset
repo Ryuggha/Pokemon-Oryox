@@ -15,6 +15,6 @@ MonoBehaviour:
   id: 500
   speciesName: emboar
   type1: 7
-  type2: 0
+  type2: 10
   sprite: {fileID: 21300000, guid: 4fe16056f53c8674d9aae93beb4627bb, type: 3}
   shiny: {fileID: 21300000, guid: dadb131780fbf8c4d9f2dafecf90f971, type: 3}

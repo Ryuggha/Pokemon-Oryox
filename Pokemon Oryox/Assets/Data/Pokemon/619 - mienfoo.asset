@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 619
   speciesName: mienfoo
-  type1: 0
+  type1: 10
   type2: 0
   sprite: {fileID: 21300000, guid: 806875b9a6a52e74db5d7eee769bd167, type: 3}
   shiny: {fileID: 21300000, guid: 1872b58a63f43d64aaedff964e29857c, type: 3}

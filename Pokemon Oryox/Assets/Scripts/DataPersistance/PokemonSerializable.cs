@@ -4,11 +4,14 @@ using System;
 [Serializable]
 public class PokemonSerializable
 {
+    public int index;
+
     public int speciesId;
     public string nickname;
     public pokemonType type1;
     public pokemonType type2;
     public List<string> moves;
+    public List<string> equipedMoves;
     public List<string> pasives;
     public string natureData;
     public string natureProperty1;
@@ -18,8 +21,9 @@ public class PokemonSerializable
     public bool isShiny;
     public bool isTribal;
 
-    public PokemonSerializable(PokemonObject o)
+    public PokemonSerializable(PokemonObject o, int index)
     {
+        this.index = index;
         this.speciesId = o.pokemonData.id;
         this.nickname = o.nickname;
         this.type1 = o.type1;
@@ -37,10 +41,16 @@ public class PokemonSerializable
             this.moves.Add(move.moveName);
         }
 
+        this.equipedMoves = new List<string>();
+        foreach (var move in o.equipedMoves)
+        {
+            this.equipedMoves.Add(move.moveName);
+        }
+
         this.pasives = new List<string>();
         foreach (var pasive in o.pasives)
         {
-            this.moves.Add(pasive.moveName);
+            this.pasives.Add(pasive.moveName);
         }
     }
 
@@ -61,6 +71,12 @@ public class PokemonSerializable
         foreach (var move in this.moves)
         {
             r.moves.Add(moveData.Find(x => x.moveName == move));
+        }
+
+        r.equipedMoves = new List<MoveData>();
+        foreach (var move in this.equipedMoves)
+        {
+            r.equipedMoves.Add(moveData.Find(x => x.moveName == move));
         }
 
         r.pasives = new List<MoveData>();

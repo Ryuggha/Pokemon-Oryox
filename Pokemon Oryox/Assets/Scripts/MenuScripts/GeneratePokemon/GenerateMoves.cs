@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class GenerateMoves : MonoBehaviour
+public class GenerateMoves : MonoBehaviour, IMoveGeneratorEditor
 {
     [SerializeField] CreatePokemonMenu creationMenu;
 
@@ -104,7 +104,7 @@ public class GenerateMoves : MonoBehaviour
     public void showDescription(PokemonMoveCard move)
     {
         if (move == null) descriptionField.text = "";
-        else descriptionField.text = move.getMoveData().description;
+        else descriptionField.text = move.getMoveData().description.Replace("\r", "");
     }
 
     public void onSelectMoveClick()

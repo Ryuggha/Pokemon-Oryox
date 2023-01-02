@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 10189
   speciesName: zamazenta-crowned
-  type1: 0
+  type1: 10
   type2: 1
   sprite: {fileID: 21300000, guid: 8c7fc79e3943d064eb924c471aebedfa, type: 3}
   shiny: {fileID: 21300000, guid: fe527f7034f0ff64c9a5eb31971cd7f6, type: 3}

@@ -29,31 +29,8 @@ public class CreatePokemonMenu : MonoBehaviour
     private void OnEnable()
     {
         resetDefault();
-        InitializeMaps();
     }
 
-    private void InitializeMaps()
-    {
-        if (activeMoveData == null)
-        {
-            activeMoveData = new Dictionary<int, List<MoveData>>();
-            pasiveData = new Dictionary<int, List<MoveData>>();
-
-            foreach (var move in moveRawData)
-            {
-                if (move.isPasive)
-                {
-                    if (!pasiveData.ContainsKey(PokemonTypeClass.getTypeIndex(move.type))) pasiveData[PokemonTypeClass.getTypeIndex(move.type)] = new List<MoveData>();
-                    pasiveData[PokemonTypeClass.getTypeIndex(move.type)].Add(move);
-                }
-                else
-                {
-                    if (!activeMoveData.ContainsKey(PokemonTypeClass.getTypeIndex(move.type))) activeMoveData[PokemonTypeClass.getTypeIndex(move.type)] = new List<MoveData>();
-                    activeMoveData[PokemonTypeClass.getTypeIndex(move.type)].Add(move);
-                }
-            }
-        }
-    }
 
     public void onGoBackClick()
     {
@@ -71,6 +48,8 @@ public class CreatePokemonMenu : MonoBehaviour
         natureData = Data.instance.natureData;
         constitutionData = Data.instance.constitutionData;
         moveRawData = Data.instance.moveRawData;
+        activeMoveData = Data.instance.activeMoveData;
+        pasiveData = Data.instance.pasiveData;
 
         adminSteps();
     }
@@ -131,6 +110,14 @@ public class CreatePokemonMenu : MonoBehaviour
     public void finish(PokemonObject pokemon)
     {
         resetDefault();
-        mainMenu.finishedPokemonCreation(pokemon);
+        for (int i = 0; i < 4; i++)
+        {
+            if (pokemon.moves.Count > i)
+            {
+                pokemon.equipedMoves.Add(pokemon.moves[i]);
+            }
+        }
+        PokemonList.instance.addPokemon(pokemon);
+        mainMenu.returnToMenu();
     }
 }

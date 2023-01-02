@@ -21,14 +21,11 @@ public class MainMenu : MonoBehaviour
 
     public void returnToMenu()
     {
+        FileDataHandler.instance.Save();
         gameObject.SetActive(true);
         generateMenu.SetActive(false);
-    }
-
-    public void finishedPokemonCreation(PokemonObject pokemon)
-    {
-        gameObject.SetActive(true);
-        generateMenu.SetActive(false);
+        partyMenu.SetActive(false);
+        pcMenu.SetActive(false);
     }
 
     public void onPartyClick()

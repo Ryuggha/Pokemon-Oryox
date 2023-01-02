@@ -15,6 +15,6 @@ MonoBehaviour:
   id: 10024
   speciesName: keldeo-resolute
   type1: 2
-  type2: 0
+  type2: 10
   sprite: {fileID: 21300000, guid: 8d6118ead88c4dd4895bf69b8630e8de, type: 3}
   shiny: {fileID: 21300000, guid: da40667bd6379244d895e2bf820e93eb, type: 3}

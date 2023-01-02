@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 740
   speciesName: crabominable
-  type1: 0
+  type1: 10
   type2: 9
   sprite: {fileID: 21300000, guid: 9d66d820b14d4024ca7372dadf32223e, type: 3}
   shiny: {fileID: 21300000, guid: 78e5ecce6cb71f04b937562e1fa4539c, type: 3}

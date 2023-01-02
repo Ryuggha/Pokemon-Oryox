@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 308
   speciesName: medicham
-  type1: 0
+  type1: 10
   type2: 13
   sprite: {fileID: 21300000, guid: c11932695a90e404e8cdc83d01512b62, type: 3}
   shiny: {fileID: 21300000, guid: 1b70d8737f9a13e4dbf94e3e19c90b8c, type: 3}

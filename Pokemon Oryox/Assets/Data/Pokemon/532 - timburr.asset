@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 532
   speciesName: timburr
-  type1: 0
+  type1: 10
   type2: 0
   sprite: {fileID: 21300000, guid: 336efb1e28d484640b8f1da588a72a69, type: 3}
   shiny: {fileID: 21300000, guid: f5085ca2c9a85d946bc7e6184cf81b81, type: 3}

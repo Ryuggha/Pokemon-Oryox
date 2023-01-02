@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 701
   speciesName: hawlucha
-  type1: 0
+  type1: 10
   type2: 18
   sprite: {fileID: 21300000, guid: 889daa781b2068843b75f378f3f1a3f3, type: 3}
   shiny: {fileID: 21300000, guid: 6ed15875d23dcec4f8abc38b64b4b8f9, type: 3}

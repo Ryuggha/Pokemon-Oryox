@@ -17,7 +17,7 @@ MonoBehaviour:
   type: 12
   description: "Flagela al enemigo con un l\xE1tigo de cepa. Inflinge 1 punto de
     da\xF1o de tipo planta por golpe. Asesta 1 golpe por cada acci\xF3n que hiciera
-    el pok\xE9mon enemigo en su\r anterior turno."
+    el pok\xE9mon enemigo en su anterior turno."
   coste: 4PP 1PE
   range: 3-8
   notes: "Puedes consumir 1 acci\xF3n adicional para a\xF1adir 1 golpe m\xE1s. (indefinidamente).

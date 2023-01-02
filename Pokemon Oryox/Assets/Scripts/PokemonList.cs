@@ -4,10 +4,15 @@ using UnityEngine;
 
 public class PokemonList : MonoBehaviour
 {
-    private Dictionary<int, PokemonObject> allMyPokemon;
+    public static PokemonList instance;
+
+    public Dictionary<int, PokemonObject> allMyPokemon { get; private set; }
+
+    [SerializeField] GameObject statsScreen;
 
     private void Awake()
     {
+        if (instance == null) instance = this;
         allMyPokemon = new Dictionary<int, PokemonObject>();
     }
 
@@ -22,5 +27,12 @@ public class PokemonList : MonoBehaviour
         } while (!found);
 
         allMyPokemon.Add(index, o);
+
+        FileDataHandler.instance.Save();
+    }
+
+    public void activateStatsScreen()
+    {
+        statsScreen.SetActive(true);
     }
 }

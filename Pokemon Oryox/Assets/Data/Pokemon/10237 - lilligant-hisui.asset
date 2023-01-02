@@ -15,6 +15,6 @@ MonoBehaviour:
   id: 10237
   speciesName: lilligant-hisui
   type1: 12
-  type2: 0
+  type2: 10
   sprite: {fileID: 21300000, guid: 9763f2201daf78a4fb0e17615313a645, type: 3}
   shiny: {fileID: 21300000, guid: f332be9564a3c4d4b885cce60f383fe2, type: 3}

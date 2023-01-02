@@ -15,6 +15,6 @@ MonoBehaviour:
   id: 759
   speciesName: stufful
   type1: 11
-  type2: 0
+  type2: 10
   sprite: {fileID: 21300000, guid: 1745948d6943faf49a006949638fda09, type: 3}
   shiny: {fileID: 21300000, guid: 3215a233cd5d463449f842a4f34d264a, type: 3}

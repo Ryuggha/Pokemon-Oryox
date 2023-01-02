@@ -15,6 +15,6 @@ MonoBehaviour:
   id: 214
   speciesName: heracross
   type1: 3
-  type2: 0
+  type2: 10
   sprite: {fileID: 21300000, guid: ea6df398149bd654686b2cf61bcb4126, type: 3}
   shiny: {fileID: 21300000, guid: 58e0830ec7570ef489def9a40a52fced, type: 3}

@@ -6,7 +6,7 @@ using TMPro;
 using System;
 using Random = UnityEngine.Random;
 
-public class SpeciesSelectViewPort : MonoBehaviour
+public class SpeciesSelectViewPort : MonoBehaviour, IViewPortController
 {
     public CreatePokemonMenu creationMenu;
 

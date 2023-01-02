@@ -15,6 +15,6 @@ MonoBehaviour:
   id: 499
   speciesName: pignite
   type1: 7
-  type2: 0
+  type2: 10
   sprite: {fileID: 21300000, guid: 316e6fa50e5661c4ca03217c4b42835a, type: 3}
   shiny: {fileID: 21300000, guid: d41bc3049da31c54dacdc221aaba3ea4, type: 3}
