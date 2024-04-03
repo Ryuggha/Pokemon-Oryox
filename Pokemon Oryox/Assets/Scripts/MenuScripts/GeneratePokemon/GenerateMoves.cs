@@ -71,6 +71,8 @@ public class GenerateMoves : MonoBehaviour, IMoveGeneratorEditor
         pokemonType type2 = newPokemon.type2;
         if (type2 != type1 && type2 != pokemonType.normal && type2 != pokemonType.none) retList.AddRange(allMoves[PokemonTypeClass.getTypeIndex(type2)]);
 
+        //retList = new List<MoveData>(allMoves);
+
         return retList;
     }
 
