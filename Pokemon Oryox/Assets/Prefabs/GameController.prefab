@@ -1203,6 +1203,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f5a43346d8a5b0942a5caf1db25aa4ca, type: 2}
   - {fileID: 11400000, guid: c9cbc8495c79d4945b6a5b37303f346c, type: 2}
   - {fileID: 11400000, guid: d95f8d0269b40e646b7b3e942f61c071, type: 2}
+  - {fileID: 11400000, guid: 21ba7ae49516a784788e8e9b9e3a4c80, type: 2}
   natureData:
   - {fileID: 11400000, guid: bdf755be4434a2b4c852fb489a9e79a5, type: 2}
   - {fileID: 11400000, guid: 41e1e8a1c0227ef49b3725f193b631ed, type: 2}
