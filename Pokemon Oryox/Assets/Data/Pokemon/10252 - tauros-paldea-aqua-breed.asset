@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a24bcd988ca104dbab12e4f82b8798, type: 3}
+  m_Name: 10252 - tauros-paldea-aqua-breed
+  m_EditorClassIdentifier: 
+  id: 10252
+  speciesName: tauros-paldea-aqua-breed
+  type1: 10
+  type2: 2
+  sprite: {fileID: 21300000, guid: 470000980318be6419d54f1a154681c2, type: 3}
+  shiny: {fileID: 21300000, guid: 79a05be95f7999448bfc7b274442eedd, type: 3}

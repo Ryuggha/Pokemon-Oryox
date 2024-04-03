@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a24bcd988ca104dbab12e4f82b8798, type: 3}
+  m_Name: 10261 - squawkabilly-yellow-plumage
+  m_EditorClassIdentifier: 
+  id: 10261
+  speciesName: squawkabilly-yellow-plumage
+  type1: 11
+  type2: 18
+  sprite: {fileID: 21300000, guid: 988c5475733ffbb46be8e9544d7826e6, type: 3}
+  shiny: {fileID: 21300000, guid: aba80af8c474d084baaebf877e4b6a46, type: 3}

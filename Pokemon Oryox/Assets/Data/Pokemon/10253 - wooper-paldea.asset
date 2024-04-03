@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a24bcd988ca104dbab12e4f82b8798, type: 3}
+  m_Name: 10253 - wooper-paldea
+  m_EditorClassIdentifier: 
+  id: 10253
+  speciesName: wooper-paldea
+  type1: 17
+  type2: 16
+  sprite: {fileID: 21300000, guid: 6f21f093cc7343847966ba251f4c7c77, type: 3}
+  shiny: {fileID: 21300000, guid: b4b0a9d12d84ed144a78780cb79bb7d5, type: 3}
