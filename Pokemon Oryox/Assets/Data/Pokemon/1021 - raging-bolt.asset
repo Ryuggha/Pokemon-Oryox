@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a24bcd988ca104dbab12e4f82b8798, type: 3}
+  m_Name: 1021 - raging-bolt
+  m_EditorClassIdentifier: 
+  id: 1021
+  speciesName: raging-bolt
+  type1: 5
+  type2: 4
+  sprite: {fileID: 21300000, guid: 80fc22357b3dbb64c9f917908b74780e, type: 3}
+  shiny: {fileID: 21300000, guid: 3c68120f15ece654c89d7ed51e654178, type: 3}
