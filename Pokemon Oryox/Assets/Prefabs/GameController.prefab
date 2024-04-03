@@ -1205,6 +1205,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d95f8d0269b40e646b7b3e942f61c071, type: 2}
   - {fileID: 11400000, guid: 21ba7ae49516a784788e8e9b9e3a4c80, type: 2}
   - {fileID: 11400000, guid: c7f3d04ded12d44418dc0b655e12226e, type: 2}
+  - {fileID: 11400000, guid: 5e24d7b2385b76f4b8a7c367f6dfb4e1, type: 2}
+  - {fileID: 11400000, guid: 525aaedc53f056c44a5f53ea72c044c5, type: 2}
+  - {fileID: 11400000, guid: 40d892823dbfdf44eaf069a9c7604f48, type: 2}
+  - {fileID: 11400000, guid: baad26e13543d26478bf510f42d943d4, type: 2}
+  - {fileID: 11400000, guid: c53491d7ebed83a42afe2f556965dcf6, type: 2}
+  - {fileID: 11400000, guid: e177c67da007739438e5f5de4618c945, type: 2}
+  - {fileID: 11400000, guid: 63ea59408b40b084c8946cbcffba96f1, type: 2}
   natureData:
   - {fileID: 11400000, guid: bdf755be4434a2b4c852fb489a9e79a5, type: 2}
   - {fileID: 11400000, guid: 41e1e8a1c0227ef49b3725f193b631ed, type: 2}
