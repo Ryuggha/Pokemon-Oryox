@@ -61,26 +61,37 @@ public class FileDataHandler : MonoBehaviour
         Directory.CreateDirectory(Application.persistentDataPath);
         foreach (var i in pokemonList.allMyPokemon.Keys)
         {
-            try
+            savePokemon(i);
+        }
+    }
+
+    private void savePokemon(int i)
+    {
+        
+        try
+        {
+            var serializableForm = new PokemonSerializable(pokemonList.allMyPokemon[i], i);
+            string dataFileName = serializableForm.index.ToString() + ".json";
+
+            string dataToStore = JsonUtility.ToJson(serializableForm, true);
+
+            using (FileStream stream = new FileStream(Path.Combine(Application.persistentDataPath, dataFileName), FileMode.Create))
             {
-                var serializableForm = new PokemonSerializable(pokemonList.allMyPokemon[i], i);
-                string dataFileName = serializableForm.index.ToString() + ".json";
-
-                string dataToStore = JsonUtility.ToJson(serializableForm, true);
-
-                using (FileStream stream = new FileStream(Path.Combine(Application.persistentDataPath, dataFileName), FileMode.Create))
+                using (StreamWriter writer = new StreamWriter(stream))
                 {
-                    using (StreamWriter writer = new StreamWriter(stream))
-                    {
-                        writer.Write(dataToStore);
-                    }
+                    writer.Write(dataToStore);
                 }
             }
-            catch (Exception e)
-            {
-                Debug.Log($"Error while saving {pokemonList.allMyPokemon[i].nickname}\n{e}");
-            }
-            
         }
+        catch (Exception e)
+        {
+            Debug.Log($"Error while saving {pokemonList.allMyPokemon[i].nickname}\n{e}");
+        }
+
+    }
+
+    public void SaveSpecificPokemon(PokemonObject pokemon)
+    {
+
     }
 }

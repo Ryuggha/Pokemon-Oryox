@@ -25,10 +25,10 @@ public class EditMovesScreen : MonoBehaviour, IMoveGeneratorEditor
 
     public void Initialize()
     {
-        Initialize(pokemon);
+        Initialize(pokemon, true);
     }
 
-    public void Initialize(PokemonObject pokemon)
+    public void Initialize(PokemonObject pokemon, bool typeConsistent)
     {
         this.pokemon = pokemon;
 
@@ -38,7 +38,7 @@ public class EditMovesScreen : MonoBehaviour, IMoveGeneratorEditor
         else if (menuType == 1) allMoves = Data.instance.activeMoveData;
         else if (menuType == 2) allMoves = Data.instance.pasiveData;
 
-        var moveList = generateMovesList();
+        var moveList = generateMovesList(typeConsistent);
 
         selectMovesButton.interactable = false;
 
@@ -63,7 +63,7 @@ public class EditMovesScreen : MonoBehaviour, IMoveGeneratorEditor
         unshowMove();
     }
 
-    private List<MoveData> generateMovesList()
+    private List<MoveData> generateMovesList(bool typeConsistent)
     {
         List<MoveData> retList;
         if (menuType == 0)
@@ -72,12 +72,24 @@ public class EditMovesScreen : MonoBehaviour, IMoveGeneratorEditor
         }
         else
         {
-            retList = new List<MoveData>(allMoves[PokemonTypeClass.getTypeIndex(pokemonType.normal)]);
+            if (typeConsistent)
+            {
+                retList = new List<MoveData>(allMoves[PokemonTypeClass.getTypeIndex(pokemonType.normal)]);
 
-            pokemonType type1 = pokemon.type1;
-            if (type1 != pokemonType.normal) retList.AddRange(allMoves[PokemonTypeClass.getTypeIndex(type1)]);
-            pokemonType type2 = pokemon.type2;
-            if (type2 != type1 && type2 != pokemonType.normal && type2 != pokemonType.none) retList.AddRange(allMoves[PokemonTypeClass.getTypeIndex(type2)]);
+                pokemonType type1 = pokemon.type1;
+                if (type1 != pokemonType.normal) retList.AddRange(allMoves[PokemonTypeClass.getTypeIndex(type1)]);
+                pokemonType type2 = pokemon.type2;
+                if (type2 != type1 && type2 != pokemonType.normal && type2 != pokemonType.none) retList.AddRange(allMoves[PokemonTypeClass.getTypeIndex(type2)]);
+            }
+            else
+            {
+                retList = new List<MoveData>();
+                foreach (var type in allMoves.Keys)
+                {
+                    retList.AddRange(allMoves[type]);
+                }
+            }
+            
         }
         return retList;
     }
@@ -162,7 +174,7 @@ public class EditMovesScreen : MonoBehaviour, IMoveGeneratorEditor
     public void onEditMovesClick()
     {
         editMovesScreen.SetActive(true);
-        editMovesScreen.GetComponent<EditMovesScreen>().Initialize(pokemon);
+        editMovesScreen.GetComponent<EditMovesScreen>().Initialize(pokemon, false);
     }
 
     public void onGoBackButton()

@@ -21,6 +21,26 @@ public class PokemonSerializable
     public bool isShiny;
     public bool isTribal;
 
+    public string mov;
+    public string initiative;
+    public string turnCounter;
+    public string luck;
+    public string attack;
+    public string defense;
+    public string spAttack;
+    public string spDefense;
+    public string linkUses;
+    public string respect;
+    public string affect;
+    public string admiration;
+    public string syncrony;
+    public string discipline;
+    public string hp;
+    public string ep;
+    public string pp;
+    public string trainerPasives;
+    public string abilityPasives;
+
     public PokemonSerializable(PokemonObject o, int index)
     {
         this.index = index;
@@ -52,6 +72,26 @@ public class PokemonSerializable
         {
             this.pasives.Add(pasive.moveName);
         }
+
+        mov = o.mov;
+        initiative = o.initiative;
+        turnCounter = o.turnCounter;
+        luck = o.luck;
+        attack = o.attack;
+        defense = o.defense;
+        spAttack = o.spAttack;
+        spDefense = o.spDefense;
+        linkUses = o.linkUses;
+        respect = o.respect;
+        affect = o.affect;
+        admiration = o.admiration;
+        syncrony = o.syncrony;
+        discipline = o.discipline;
+        hp = o.hp;
+        ep = o.ep;
+        pp = o.pp;
+        trainerPasives = o.trainerPasives;
+        abilityPasives = o.abilityPasives;
     }
 
     public PokemonObject load()
@@ -96,6 +136,26 @@ public class PokemonSerializable
 
         r.isShiny = this.isShiny;
         r.isTribal = this.isTribal;
+
+        r.mov = mov;
+        r.initiative = initiative;
+        r.turnCounter = turnCounter;
+        r.luck = luck;
+        r.attack = attack;
+        r.defense = defense;
+        r.spAttack = spAttack;
+        r.spDefense = spDefense;
+        r.linkUses = linkUses;
+        r.respect = respect;
+        r.affect = affect;
+        r.admiration = admiration;
+        r.syncrony = syncrony;
+        r.discipline = discipline;
+        r.hp = hp;
+        r.ep = ep;
+        r.pp = pp;
+        r.trainerPasives = trainerPasives;
+        r.abilityPasives = abilityPasives;
 
         return r;
     }

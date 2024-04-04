@@ -8,6 +8,8 @@ public class StatsMenu : MonoBehaviour
 {
     public static StatsMenu instance;
 
+    public FileDataHandler fileDataHandler;
+
     private PokemonObject pokemon;
     private Button selectedButton;
     private MoveData selectedMove;
@@ -18,6 +20,7 @@ public class StatsMenu : MonoBehaviour
     public GameObject speciesChangeScreen;
     public GameObject moveHandlerScreen;
     public GameObject pasiveHandlerScreen;
+    public GameObject combatStatsScreen;
 
     [Header("UI References")]
     public Image pokemonSprite;
@@ -39,6 +42,27 @@ public class StatsMenu : MonoBehaviour
     public TMP_Text movesNotesText;
     public GameObject eraseButton;
     public GameObject confirmButton;
+    public TMP_InputField mov;
+    public TMP_InputField initiative;
+    public TMP_InputField turnCounter;
+    public TMP_InputField luck;
+    public TMP_InputField attack;
+    public TMP_InputField defense;
+    public TMP_InputField spAttack;
+    public TMP_InputField spDefense;
+    public TMP_InputField linkUses;
+    public TMP_InputField respect;
+    public TMP_InputField affect;
+    public TMP_InputField admiration;
+    public TMP_InputField syncrony;
+    public TMP_InputField discipline;
+    public TMP_InputField hp;
+    public TMP_InputField ep;
+    public TMP_InputField pp;
+    public TMP_InputField trainerPasives;
+    public TMP_InputField abilityPasives;
+    public TextMeshProUGUI pokemonNameCombat;
+    public Image pokemonSpriteCombat;
 
     [Header("MoveButtons")]
     public Button move1;
@@ -74,10 +98,12 @@ public class StatsMenu : MonoBehaviour
 
         if (pokemon.isShiny) pokemonSprite.sprite = pokemon.pokemonData.shiny;
         else pokemonSprite.sprite = pokemon.pokemonData.sprite;
+        pokemonSpriteCombat.sprite = pokemonSprite.sprite;
         if (pokemon.isTribal) tribalSprite.SetActive(true);
         else tribalSprite.SetActive(false);
 
         pokemonNameText.text = pokemon.getName();
+        pokemonNameCombat.text = pokemon.getName();
 
         statsScreen.SetActive(true);
         moveScreen.SetActive(true);
@@ -97,6 +123,8 @@ public class StatsMenu : MonoBehaviour
         updateMoves();
 
         moveScreen.SetActive(false);
+
+        setCombatStats();
     }
 
     public void movesUpdate()
@@ -191,6 +219,58 @@ public class StatsMenu : MonoBehaviour
         gameObject.SetActive(false);
     }
 
+    public void onBackFromCombatClick()
+    {
+        combatStatsScreen.SetActive(false);
+    }
+
+    public void setCombatStats()
+    {
+        mov.text = pokemon.mov;
+        initiative.text = pokemon.initiative;
+        turnCounter.text = pokemon.turnCounter;
+        luck.text = pokemon.luck;
+        attack.text = pokemon.attack;
+        defense.text = pokemon.defense;
+        spAttack.text = pokemon.spAttack;
+        spDefense.text = pokemon.spDefense;
+        linkUses.text = pokemon.linkUses;
+        respect.text = pokemon.respect;
+        affect.text = pokemon.affect;
+        admiration.text = pokemon.admiration;
+        syncrony.text = pokemon.syncrony;
+        discipline.text = pokemon.discipline;
+        hp.text = pokemon.hp;
+        ep.text = pokemon.ep;
+        pp.text = pokemon.pp;
+        trainerPasives.text = pokemon.trainerPasives;
+        abilityPasives.text = pokemon.abilityPasives;
+    }
+
+    public void saveCombatStats()
+    {
+        pokemon.mov = mov.text;
+        pokemon.initiative = initiative.text;
+        pokemon.turnCounter = turnCounter.text;
+        pokemon.luck = luck.text;
+        pokemon.attack = attack.text;
+        pokemon.defense = defense.text;
+        pokemon.spAttack = spAttack.text;
+        pokemon.spDefense = spDefense.text;
+        pokemon.linkUses = linkUses.text;
+        pokemon.respect = respect.text;
+        pokemon.affect = affect.text;
+        pokemon.admiration = admiration.text;
+        pokemon.syncrony = syncrony.text;
+        pokemon.discipline = discipline.text;
+        pokemon.hp = hp.text;
+        pokemon.ep = ep.text;
+        pokemon.pp = pp.text;
+        pokemon.trainerPasives = trainerPasives.text;
+        pokemon.abilityPasives = abilityPasives.text;
+        fileDataHandler.Save();
+    }
+
     public void onStatsClick()
     {
         statsScreen.SetActive(true);
@@ -203,6 +283,12 @@ public class StatsMenu : MonoBehaviour
         moveScreen.SetActive(true);
     }
 
+    public void onCombatClick()
+    {
+        combatStatsScreen.SetActive(true);
+        setCombatStats();
+    }
+
     public void onChangeFormClick()
     {
         speciesChangeScreen.SetActive(true);
@@ -212,13 +298,13 @@ public class StatsMenu : MonoBehaviour
     public void onMoveEditClick()
     {
         moveHandlerScreen.SetActive(true);
-        moveHandlerScreen.GetComponent<EditMovesScreen>().Initialize(pokemon);
+        moveHandlerScreen.GetComponent<EditMovesScreen>().Initialize(pokemon, false);
     }
 
     public void onPasiveEditClick()
     {
         pasiveHandlerScreen.SetActive(true);
-        pasiveHandlerScreen.GetComponent<EditMovesScreen>().Initialize(pokemon);
+        pasiveHandlerScreen.GetComponent<EditMovesScreen>().Initialize(pokemon, false);
     }
 
     public void onMove1Click()

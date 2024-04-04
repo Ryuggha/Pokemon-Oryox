@@ -23,6 +23,26 @@ public class PokemonObject
     public bool isShiny;
     public bool isTribal;
 
+    public string mov;
+    public string initiative;
+    public string turnCounter;
+    public string luck;
+    public string attack;
+    public string defense;
+    public string spAttack;
+    public string spDefense;
+    public string linkUses;
+    public string respect;
+    public string affect;
+    public string admiration;
+    public string syncrony;
+    public string discipline;
+    public string hp;
+    public string ep;
+    public string pp;
+    public string trainerPasives;
+    public string abilityPasives;
+
     public PokemonObject(PokemonApiData pokemonApiData)
     {
         moves = new List<MoveData>();
