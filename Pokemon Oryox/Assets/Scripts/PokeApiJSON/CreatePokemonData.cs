@@ -9,6 +9,7 @@ using System.IO;
 
 public class CreatePokemonData : MonoBehaviour
 {
+#if UNITY_EDITOR
     [SerializeField] private int desiredDepth = 7;
 
     private void Start()
@@ -86,7 +87,6 @@ public class CreatePokemonData : MonoBehaviour
         AssetDatabase.SaveAssets();
         AssetDatabase.Refresh();
     }
-
-    
+#endif
 
 }
